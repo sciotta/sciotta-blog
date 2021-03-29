@@ -47,10 +47,10 @@ module.exports = {
           ],
         },
         {
-          title: 'E ai, cê topa?',
+          title: 'Me dá um cafezinho?',
           items: [
             {
-              html: `<a href="https://www.buymeacoffee.com/qUBm0Wh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>`,
+              html: `<a href="https://www.buymeacoffee.com/sciotta" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>`,
             },
           ],
         },
@@ -59,8 +59,8 @@ module.exports = {
     },
   },
   i18n: {
-    defaultLocale: 'tr',
-    locales: ['tr'],
+    defaultLocale: 'pt-BR',
+    locales: ['pt-BR'],
   },
   presets: [
     [
