@@ -10,6 +10,7 @@ module.exports = {
   organizationName: 'thiagog3',
   projectName: 'sciotta-blog',
   themeConfig: {
+    metadatas: [{name: 'twitter:card', content: 'summary'}],
     navbar: {
       title: 'sciotta.',
       items: [
