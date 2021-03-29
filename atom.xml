@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.sciotta.com.br/</id>
+    <title>Sciotta</title>
+    <updated>2019-05-30T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://blog.sciotta.com.br/"/>
+    <subtitle>Sciotta blog</subtitle>
+    <icon>https://blog.sciotta.com.br/img/favicon.ico</icon>
+    <rights>Sciotta 2021</rights>
+    <entry>
+        <title type="html"><![CDATA[Segurança no front-end]]></title>
+        <id>seguranca-no-front-end</id>
+        <link href="https://blog.sciotta.com.br/seguranca-no-front-end"/>
+        <updated>2019-05-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[É importante restringir e se assegurar também através do front-end, informando para o browser o que pode e o que não pode ser feito. Utilizando da declaração de algumas meta-tags e headers de resposta HTTP, conseguimos por exemplo, bloquear a manipulação e injeções de scripts maliciosos que podem, inclusive, roubar dados e capturar informações dos seus usuários através do seu site ou aplicação web.]]></summary>
+    </entry>
+</feed>
