@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{79:function(n){n.exports=JSON.parse('{"title":"Postagens recentes","items":[{"title":"Seguran\xe7a no front-end","permalink":"/seguranca-no-front-end"}]}')}}]);

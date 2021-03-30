@@ -11,8 +11,8 @@
         <copyright>Sciotta 2021</copyright>
         <item>
             <title><![CDATA[Segurança no front-end]]></title>
-            <link>https://blog.sciotta.com.br/seguranca-no-front-end</link>
-            <guid>seguranca-no-front-end</guid>
+            <link>https://blog.sciotta.com.br/seguranca-front-end</link>
+            <guid>seguranca-front-end</guid>
             <pubDate>Mon, 29 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[É importante restringir e se assegurar também através do front-end, informando para o browser o que pode e o que não pode ser feito. Utilizando da declaração de algumas meta-tags e headers de resposta HTTP, conseguimos por exemplo, bloquear a manipulação e injeções de scripts maliciosos que podem, inclusive, roubar dados e capturar informações dos seus usuários através do seu site ou aplicação web.]]></description>
         </item>
