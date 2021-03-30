@@ -19,14 +19,16 @@ module.exports = {
       items: [
         {to: '/', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/thiagog3',
-          label: 'GitHub',
-          position: 'right',
-        },
-        {
           href: 'https://www.linkedin.com/in/sciotta/',
           label: 'Linkedin',
           position: 'right',
+          'aria-label': 'Perfil do Linkedin',
+        },
+        {
+          href: 'https://github.com/thiagog3',
+          className: 'header-github-link',
+          position: 'right',
+          'aria-label': 'Repositório do Github',
         },
       ],
     },
