@@ -13,7 +13,6 @@ module.exports = {
     metadatas: [{name: 'twitter:card', content: 'summary'}],
     gtag: {
       trackingID: 'G-MPD14XHTFV',
-      anonymizeIP: true,
     },
     navbar: {
       title: 'sciotta.',
@@ -47,7 +46,7 @@ module.exports = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/falhamecanica',
+              href: 'https://twitter.com/thiagosciotta',
             },
           ],
         },
