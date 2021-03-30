@@ -1,11 +1,12 @@
 ---
-slug: seguranca-no-front-end
+slug: seguranca-front-end
 title: Segurança no front-end
 author: Thiago Sciotta
 author_title: Front End Engineer @ Gupy
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [segurança, front-end]
+image: https://www.immuniweb.com/images/blog/web-security-mistakes-cost-millions-dollars.jpg
 ---
 
 É importante restringir e se assegurar também através do front-end, informando para o browser o que pode e o que não pode ser feito. Utilizando da declaração de algumas meta-tags e headers de resposta HTTP, conseguimos por exemplo, bloquear a manipulação e injeções de scripts maliciosos que podem, inclusive, roubar dados e capturar informações dos seus usuários através do seu site ou aplicação web. 
