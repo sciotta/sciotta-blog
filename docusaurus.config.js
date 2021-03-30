@@ -11,6 +11,10 @@ module.exports = {
   projectName: 'sciotta-blog',
   themeConfig: {
     metadatas: [{name: 'twitter:card', content: 'summary'}],
+    gtag: {
+      trackingID: 'G-MPD14XHTFV',
+      anonymizeIP: true,
+    },
     navbar: {
       title: 'sciotta.',
       items: [
