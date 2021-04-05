@@ -2,12 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.sciotta.com.br/</id>
     <title>Sciotta</title>
-    <updated>2021-03-29T00:00:00.000Z</updated>
+    <updated>2021-04-04T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.sciotta.com.br/"/>
     <subtitle>Sciotta blog</subtitle>
     <icon>https://blog.sciotta.com.br/img/favicon.ico</icon>
     <rights>Sciotta 2021</rights>
+    <entry>
+        <title type="html"><![CDATA[Três fatores que irão fazer toda a diferença ao lidar com tecnologia e produto]]></title>
+        <id>tres-fatores</id>
+        <link href="https://blog.sciotta.com.br/tres-fatores"/>
+        <updated>2021-04-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Sendo nós desenvolvedores, sempre tentamos nos aperfeiçoar em termos tecnológicos: testar um novo framework, uma nova linguagem ou uma tecnologia nova que nos chama a atenção. Mas até que ponto isso interfere na entrega final  para os usuários?]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Segurança no front-end]]></title>
         <id>seguranca-front-end</id>
