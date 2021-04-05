@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{87:function(e){e.exports=JSON.parse('{"title":"Postagens recentes","items":[{"title":"Tr\xeas fatores que ir\xe3o fazer toda a diferen\xe7a ao lidar com tecnologia e produto","permalink":"/tres-fatores"},{"title":"Seguran\xe7a no front-end","permalink":"/seguranca-front-end"}]}')}}]);
