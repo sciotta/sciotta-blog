@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[22],{89:function(a){a.exports=JSON.parse('{"allTagsPath":"/tags","slug":"filosofia","name":"filosofia","count":1,"permalink":"/tags/filosofia"}')}}]);
