@@ -1,5 +1,5 @@
 ---
-slug: tres-fatores
+slug: pertencimento-e-gratidao
 title: Pertencimento e gratidão
 author: Thiago Sciotta
 author_title: Front End Engineer @ Gupy
