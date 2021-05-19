@@ -9,7 +9,7 @@ tags: [gratidão,pertencimento,filosofia,vida]
 image: https://cdn.tinybuddha.com/wp-content/uploads/2015/10/Man-and-a-bike-600x400.png
 ---
 
-Há 10 dias, tive a oportunidade através do Rotaract de Taubaté, no qual faço parte, de palestrar de forma remota, para mais de 60 adolescentes de 4 escolas públicas diferentes da cidade. Foi uma oportunidade única que sou muito grato e tenho muito orgulho de mim mesmo pelo feito. Sim, sentir orgulho próprio não é errado.
+Há 10 dias, tive a oportunidade através do [Rotaract de Taubaté](https://www.instagram.com/rotaract_taubate/), no qual faço parte, de palestrar de forma remota, para mais de 60 adolescentes de 4 escolas públicas diferentes da cidade. Foi uma oportunidade única que sou muito grato e tenho muito orgulho de mim mesmo pelo feito. Sim, sentir orgulho próprio não é errado.
 
 <!--truncate-->
 
@@ -45,6 +45,7 @@ Para quem tiver curiosidade dos slides apresentados, compartilhei no [Slideshare
 
 ## Conclusão
 
-No final das contas, só tenho a conclusão que de quando nos doamos sem pretensão, sem almejar nada em troca, o sentimento de gratidão e de devolução de algo que nunca foi nosso é IMENSO. É como um carinho do universo, como um afago e um sentimento imenso de pertencimento de algo maior.
+No final das contas, só tenho a conclusão que de quando nos doamos sem pretensão, sem almejar nada em troca, o sentimento de gratidão e de devolução de algo que nunca foi nosso é IMENSO. É como um carinho do universo, como um afago e um sEncorajo a cada um de vocês a participarem de algum projeto que possa servir ao próximo. Essa sensação de pertencimento e de se doar é indescritível com palavras.entimento imenso de pertencimento de algo maior.
 
-No final das contas, só tenho a conclusão que de quando nos doamos sem pretensão, sem almejar nada em troca, o sentimento de gratidão e de devolução de algo que nunca foi nosso é IMENSO. É como um carinho do universo, como um afago e um sentimento imenso de pertencimento de algo maior.
+
+Encorajo a cada um de vocês a participarem de algum projeto que possa servir ao próximo. Essa sensação de pertencimento e de se doar é indescritível com palavras.
