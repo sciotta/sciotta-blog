@@ -43,7 +43,7 @@ Para quem tiver curiosidade dos slides apresentados, compartilhei no [Slideshare
 
 ## Conclusão
 
-No final das contas, só tenho a conclusão que de quando nos doamos sem pretensão, sem almejar nada em troca, o sentimento de gratidão e de devolução de algo que nunca foi nosso é IMENSO. É como um carinho do universo, como um afago e um sEncorajo a cada um de vocês a participarem de algum projeto que possa servir ao próximo. Essa sensação de pertencimento e de se doar é indescritível com palavras.entimento imenso de pertencimento de algo maior.
+No final das contas, só tenho a conclusão de que quando nos doamos sem pretensão, sem almejar nada em troca, o sentimento de gratidão e de devolução de algo que nunca foi nosso é IMENSO. É como um carinho do universo, como um sentimento imenso de pertencer a algo maior.
 
 
 Encorajo a cada um de vocês a participarem de algum projeto que possa servir ao próximo. Essa sensação de pertencimento e de se doar é indescritível com palavras.
