@@ -4,11 +4,18 @@
         <title>Sciotta</title>
         <link>https://blog.sciotta.com.br/</link>
         <description>Sciotta blog</description>
-        <lastBuildDate>Sun, 04 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 May 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pt-BR</language>
         <copyright>Sciotta 2021</copyright>
+        <item>
+            <title><![CDATA[Pertencimento e gratidão]]></title>
+            <link>https://blog.sciotta.com.br/tres-fatores</link>
+            <guid>tres-fatores</guid>
+            <pubDate>Tue, 18 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Há 10 dias, tive a oportunidade através do Rotaract de Taubaté, no qual faço parte, de palestrar de forma remota, para mais de 60 adolescentes de 4 escolas públicas diferentes da cidade. Foi uma oportunidade única que sou muito grato e tenho muito orgulho de mim mesmo pelo feito. Sim, sentir orgulho próprio não é errado.]]></description>
+        </item>
         <item>
             <title><![CDATA[Fatores que fazem a diferença ao lidar com tecnologia e produto]]></title>
             <link>https://blog.sciotta.com.br/tres-fatores</link>
