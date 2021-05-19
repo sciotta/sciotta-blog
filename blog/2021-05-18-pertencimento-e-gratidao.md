@@ -31,8 +31,6 @@ Quando fui convidado, tínhamos a intensão de fazer uma palestra para mostrar a
 | *Photo by KOBU Agency on Unsplash* |
 
 
-Quem me conhece sabe quantas coisas passei para chegar até aqui. E tem haver com ser alguém que tenta se lapidar dia após dia, desafio após desafio com a finalidade de ser uma pessoa melhor para mim e para a sociedade na qual vivo. Bom, vou resumir o que foi essa manhã de sábado tão incrível que vivi.
-
 ## O primeiro dia: 01/05/2020.
 
 O evento foi dividido em dois sábados. Este primeiro foi com a apresentação e dinâmicas da Tati sobre comunicação não violenta. O mais incrível que não achamos que os jovens fossem tão engajados, participativos e tão organizados. Mas a cada participação, a cada fala e comentário durante os momentos propostos, pude perceber como a nova geração está marcada para mudar o mundo e escrever novas páginas na história da humanidade.
