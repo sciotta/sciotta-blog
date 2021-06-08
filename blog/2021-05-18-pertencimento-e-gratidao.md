@@ -31,11 +31,11 @@ Quando fui convidado, tínhamos a intensão de fazer uma palestra para mostrar a
 | *Photo by KOBU Agency on Unsplash* |
 
 
-## O primeiro dia: 01/05/2020.
+## O primeiro dia: 01/05/2021.
 
 O evento foi dividido em dois sábados. Este primeiro foi com a apresentação e dinâmicas da Tati sobre comunicação não violenta. O mais incrível que não achamos que os jovens fossem tão engajados, participativos e tão organizados. Mas a cada participação, a cada fala e comentário durante os momentos propostos, pude perceber como a nova geração está marcada para mudar o mundo e escrever novas páginas na história da humanidade.
 
-## O  segundo dia: 08/05/2020.
+## O  segundo dia: 08/05/2021.
 
  Com o primeiro dia tão incrível, senti o peso da responsabilidade de levar algo que eu queria ouvir quando tinha a idade deles. Já tinha preparado toda a apresentação e pensado e repensado em tudo que iria falar e como seriam as dinâmicas. Foi outro dia fantástico com muitos insights, participações e acredito que consegui deixar a mensagem que queria.
 
