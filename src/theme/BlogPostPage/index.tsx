@@ -14,20 +14,11 @@ import BlogSidebar from '@theme/BlogSidebar';
 import TOC from '@theme/TOC';
 import EditThisPage from '@theme/EditThisPage';
 
-import Disqus from "disqus-react";
-
 function BlogPostPage(props: Props): JSX.Element {
   const {content: BlogPostContents, sidebar} = props;
   const {frontMatter, metadata} = BlogPostContents;
   const {title, description, nextItem, prevItem, editUrl} = metadata;
   const {hide_table_of_contents: hideTableOfContents} = frontMatter;
-
-  const disqusShortname = "blog-sciotta"
-  const disqusConfig = {
-    url: "http://localhost:3000",
-    identifier: "article-id",
-    title: "Title of Your Article"
-  };
 
   return (
     <Layout
@@ -48,10 +39,22 @@ function BlogPostPage(props: Props): JSX.Element {
                 <BlogPostContents />
               </BlogPostItem>
 
-              <Disqus.DiscussionEmbed
-                shortname={disqusShortname}
-                config={disqusConfig}
-              />
+              <script src="https://giscus.app/client.js"
+                data-repo="thiagog3/sciotta-blog"
+                data-repo-id="MDEwOlJlcG9zaXRvcnkzNTIzNTc5MTA="
+                data-category="Announcements"
+                data-category-id="DIC_kwDOFQCOFs4CUjat"
+                data-mapping="pathname"
+                data-strict="0"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="top"
+                data-theme="preferred_color_scheme"
+                data-lang="pt"
+                crossorigin="anonymous"
+                async>
+              </script>
+              <div class="giscus"></div>
 
               <div>{editUrl && <EditThisPage editUrl={editUrl} />}</div>
               {(nextItem || prevItem) && (
