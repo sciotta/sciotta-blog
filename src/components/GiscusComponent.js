@@ -4,7 +4,6 @@ import { useColorMode } from '@docusaurus/theme-common';
 
 export default function GiscusComponent() {
   const { colorMode } = useColorMode();
-
   return (
     <Giscus    
       repo="thiagog3/sciotta-blog"
