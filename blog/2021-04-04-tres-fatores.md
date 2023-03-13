@@ -2,11 +2,12 @@
 slug: tres-fatores
 title: Fatores que fazem a diferença ao lidar com tecnologia e produto
 author: Thiago Sciotta
-author_title: Front End Engineer @ Gupy
+author_title: Front End Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [front-end,ci,automação,engenharia,produto,tecnologia]
 image: https://gaea.com.br/wp-content/uploads/2019/01/original-103f11ff7cee30e6e968fb48a6271481.jpg
+enableComments: true
 ---
 
 Sendo nós desenvolvedores, sempre tentamos nos aperfeiçoar em termos tecnológicos: testar um novo framework, uma nova linguagem ou uma tecnologia nova que nos chama a atenção. Mas até que ponto isso interfere na entrega final  para os usuários?

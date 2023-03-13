@@ -2,11 +2,12 @@
 slug: pertencimento-e-gratidao
 title: Pertencimento e gratidão
 author: Thiago Sciotta
-author_title: Front End Engineer @ Gupy
+author_title: Front End Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [gratidão,pertencimento,filosofia,vida]
 image: https://cdn.tinybuddha.com/wp-content/uploads/2015/10/Man-and-a-bike-600x400.png
+enableComments: true
 ---
 
 Há 10 dias, tive a oportunidade através do [Rotaract de Taubaté](https://www.instagram.com/rotaract_taubate/), no qual faço parte, de palestrar de forma remota, para mais de 60 adolescentes de 4 escolas públicas diferentes da cidade. Foi uma oportunidade única que sou muito grato e tenho muito orgulho de mim mesmo pelo feito. Sim, sentir orgulho próprio não é errado.

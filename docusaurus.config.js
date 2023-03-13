@@ -10,10 +10,7 @@ module.exports = {
   organizationName: 'thiagog3',
   projectName: 'sciotta-blog',
   themeConfig: {
-    metadatas: [{name: 'twitter:card', content: 'summary'}],
-    gtag: {
-      trackingID: 'G-MPD14XHTFV',
-    },
+    metadata: [{name: 'twitter:card', content: 'summary'}],
     navbar: {
       title: 'sciotta.',
       items: [
@@ -85,13 +82,22 @@ module.exports = {
             type: 'all', // required. 'rss' | 'feed' | 'all'
             title: 'Sciotta', // default to siteConfig.title
             description: 'Sciotta blog', // default to  `${siteConfig.title} Blog`
-            copyright: 'Sciotta 2021',
+            copyright: 'Sciotta 2023',
             language: 'pt-BR',
           },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+      },
+    ],
+  ],
+  plugins: [
+    [
+      '@docusaurus/plugin-google-analytics',
+      {
+        trackingID: 'G-MPD14XHTFV',
+        anonymizeIP: true,
       },
     ],
   ],
