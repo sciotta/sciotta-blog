@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksciotta_blog=self.webpackChunksciotta_blog||[]).push([[703],{6633:a=>{a.exports=JSON.parse('{"label":"seguran\xe7a","permalink":"/tags/seguranca","allTagsPath":"/tags","count":1}')}}]);

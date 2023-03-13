@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksciotta_blog=self.webpackChunksciotta_blog||[]).push([[26],{8938:a=>{a.exports=JSON.parse('{"label":"vida","permalink":"/tags/vida","allTagsPath":"/tags","count":1}')}}]);
