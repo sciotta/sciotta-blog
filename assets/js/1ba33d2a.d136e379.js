@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksciotta_blog=self.webpackChunksciotta_blog||[]).push([[6234],{5143:s=>{s.exports=JSON.parse('{"permalink":"/blog/tags/seguranca","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"A docusaurus powered blog!","blogTitle":"Docusaurus blog!"}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksciotta_blog=self.webpackChunksciotta_blog||[]).push([[664],{424:a=>{a.exports=JSON.parse('{"label":"engenharia","permalink":"/tags/engenharia","allTagsPath":"/tags","count":1}')}}]);

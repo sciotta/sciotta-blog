@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksciotta_blog=self.webpackChunksciotta_blog||[]).push([[2004],{3647:a=>{a.exports=JSON.parse('{"label":"automa\xe7\xe3o","permalink":"/blog/tags/automacao","allTagsPath":"/blog/tags","count":1}')}}]);

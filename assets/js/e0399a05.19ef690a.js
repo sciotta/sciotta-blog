@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksciotta_blog=self.webpackChunksciotta_blog||[]).push([[838],{8498:e=>{e.exports=JSON.parse('{"permalink":"/tags/pertencimento","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"A docusaurus powered blog!","blogTitle":"Docusaurus blog!"}')}}]);

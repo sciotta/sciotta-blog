@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksciotta_blog=self.webpackChunksciotta_blog||[]).push([[5676],{481:a=>{a.exports=JSON.parse('{"label":"gratid\xe3o","permalink":"/blog/tags/gratidao","allTagsPath":"/blog/tags","count":1}')}}]);
