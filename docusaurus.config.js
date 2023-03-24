@@ -1,20 +1,36 @@
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
+// @ts-check
+// Note: type annotations allow type checking and IDEs autocompletion
+
+const lightCodeTheme = require('prism-react-renderer/themes/github');
+const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   title: 'Sciotta',
   tagline: 'Blog de tecnologia e programação',
   url: 'https://blog.sciotta.com.br',
   baseUrl: '/',
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  
   favicon: 'img/favicon.ico',
   organizationName: 'thiagog3',
   projectName: 'sciotta-blog',
-  themeConfig: {
+  themeConfig: 
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  {
     metadata: [{name: 'twitter:card', content: 'summary'}],
     navbar: {
       title: 'sciotta.',
       items: [
-        {to: '/', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          type: 'doc',
+          docId: 'intro',
+          position: 'left',
+          label: 'Wiki Pessoal',
+        },
         {
           href: 'https://www.linkedin.com/in/sciotta/',
           label: 'Linkedin',
@@ -60,6 +76,10 @@ module.exports = {
       ],
       copyright: `© ${new Date().getFullYear()} Sciotta. Feito com Docusaurus.`,
     },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
   },
   i18n: {
     defaultLocale: 'pt-BR',
@@ -67,14 +87,20 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
       {
-        docs: false,
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        },
         blog: {
           blogSidebarTitle: 'Postagens recentes',
           blogTitle: 'Docusaurus blog!',
           blogDescription: 'A docusaurus powered blog!',
-          routeBasePath: '/',
           showReadingTime: true,
           editUrl:
             'https://github.com/thiagog3/sciotta-blog/edit/master/blog/',
@@ -102,3 +128,5 @@ module.exports = {
     ],
   ],
 };
+
+module.exports = config;

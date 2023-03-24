@@ -1,0 +1,58 @@
+
+.home {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+
+  height: 100vh;
+  display:flex;
+  margin: 0;
+  padding: 0;
+}
+
+.home section {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.home article {
+  width: 80vw;
+}
+
+.home a {
+  color: #000;
+  font-weight: 700;
+}
+
+.home img {
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.home nav ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.home nav li {
+  padding: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+  .home article {
+    width: 60vw;
+  }
+  .home nav ul {
+    flex-direction: row;
+  }
+  .home nav li {
+    padding: 0 15px;
+  }
+}
