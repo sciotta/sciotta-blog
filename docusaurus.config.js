@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Sciotta',
   tagline: 'Blog de tecnologia e programação',
-  url: 'https://blog.sciotta.com.br',
+  url: 'https://sciotta.com.br',
   baseUrl: '/',
 
   onBrokenLinks: 'throw',
