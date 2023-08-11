@@ -1,4 +1,3 @@
-
 ---
 slug: explorando-o-mundo
 title: Explorando o Mundo: A Magia das Viagens e Suas Lembranças Inesquecíveis
