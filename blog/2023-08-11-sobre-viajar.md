@@ -1,6 +1,6 @@
 ---
 slug: explorando-o-mundo
-title: Explorando o Mundo: A Magia das Viagens e Suas Lembranças Inesquecíveis
+title: A Magia das Viagens e Suas Lembranças Inesquecíveis
 author: Thiago Sciotta
 author_title: Front End Engineer
 author_url: https://github.com/thiagog3
