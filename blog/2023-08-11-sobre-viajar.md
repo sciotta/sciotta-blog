@@ -1,4 +1,5 @@
-——
+
+---
 slug: explorando-o-mundo
 title: Explorando o Mundo: A Magia das Viagens e Suas Lembranças Inesquecíveis
 author: Thiago Sciotta
@@ -8,11 +9,11 @@ author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [pensamentos, reflexões, diário]
 image: https://www.segueviagem.com.br/wp-content/uploads/2021/01/Aviao-shutterstock_146314307.jpg
 enableComments: true
-——
+---
 
 Viajar é uma experiência verdadeiramente mágica. Apesar de alguns discordarem, o ato de deixar para trás o conforto do lar e se aventurar por terras desconhecidas pode ser trabalhoso. 
 
-<!—truncate—>
+<!--truncate-->
 
 Horas em um carro, avião ou até mesmo em um navio podem parecer cansativas. Além disso, no meio de tantas possibilidades, imprevistos podem surgir: desde ficar sem dinheiro até lidar com roubos ou doenças. A lista de desafios é extensa e muitas vezes imprevisível.
 
