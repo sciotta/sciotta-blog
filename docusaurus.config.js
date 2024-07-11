@@ -1,8 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const {themes} = require('prism-react-renderer');
+const lightTheme = themes.github;
+const darkTheme = themes.dracula;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -17,6 +18,9 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'thiagog3',
   projectName: 'sciotta-blog',
+  themes: [
+    'docusaurus-theme-github-codeblock'
+  ],
   themeConfig: 
   /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
   {
@@ -44,6 +48,12 @@ const config = {
           'aria-label': 'Repositório do Github',
         },
       ],
+    },
+    codeblock: {
+      showGithubLink: true,
+      githubLinkLabel: 'Abrir no Github',
+      showRunmeLink: false,
+      runmeLinkLabel: 'Checkout via Runme'
     },
     footer: {
       style: 'dark',
@@ -77,8 +87,9 @@ const config = {
       copyright: `© ${new Date().getFullYear()} Sciotta. Feito com Docusaurus.`,
     },
     prism: {
-      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
+      theme: lightTheme,
+      darkTheme: darkTheme,
+      additionalLanguages: ['bash', 'diff', 'json'],
     },
   },
   i18n: {

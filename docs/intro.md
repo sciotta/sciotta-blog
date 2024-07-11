@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Wiki Pessoal
+# Wiki Pessoals
 
 Bem-vindo à minha wiki pessoal de programação, unix e um repositório de referências que servem para mim mesmo também! Esta é uma coleção de tutoriais e lembretes que eu compilei ao longo dos anos, enquanto aprendo e trabalho em projetos de desenvolvimento de software. Eu decidi compartilhar esse conhecimento  para que vocês possam se beneficiar da minha experiência e evitar alguns dos erros que eu cometi ao longo do caminho.
 
