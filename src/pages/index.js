@@ -1,10 +1,14 @@
 import React from 'react';
+
 import './index.css';
+import Layout from '@theme/Layout';
 import SciottaLogoUrl from '@site/static/img/sciotta.png';
+
+import HomepageFeatures from '../components/HomepageFeatures';
 
 export default function Hello() {
   return (
-    
+    <Layout title="Home" description="Blog of Djamaile Rahamat">
       <div className="home">
         <section>
           <article>
@@ -24,6 +28,10 @@ export default function Hello() {
             </nav>
           </article>
         </section>
+        <section>
+          <HomepageFeatures />
+        </section>
       </div>
+    </Layout>
   );
 }
