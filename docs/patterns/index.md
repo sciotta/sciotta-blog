@@ -13,7 +13,7 @@ Todos os exemplos de padrões de projeto nesta seção estão escritos em TypeSc
 
 - [Strategy](./strategy)
 - [Singleton](./singleton)
-- Observer
+- [Observer](./observer)
 - Factory Method
 - Abstract Factory
 - Adapter
