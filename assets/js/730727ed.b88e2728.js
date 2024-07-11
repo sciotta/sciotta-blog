@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksciotta_blog=self.webpackChunksciotta_blog||[]).push([[5362],{9081:o=>{o.exports=JSON.parse('{"permalink":"/blog/tags/front-end","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"A docusaurus powered blog!","blogTitle":"Docusaurus blog!"}')}}]);

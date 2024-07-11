@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksciotta_blog=self.webpackChunksciotta_blog||[]).push([[9258],{9488:a=>{a.exports=JSON.parse('{"label":"filosofia","permalink":"/blog/tags/filosofia","allTagsPath":"/blog/tags","count":1}')}}]);

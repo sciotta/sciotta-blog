@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksciotta_blog=self.webpackChunksciotta_blog||[]).push([[5710],{1383:o=>{o.exports=JSON.parse('{"permalink":"/blog/tags/filosofia","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"A docusaurus powered blog!","blogTitle":"Docusaurus blog!"}')}}]);

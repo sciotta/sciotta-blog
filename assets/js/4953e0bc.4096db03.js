@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksciotta_blog=self.webpackChunksciotta_blog||[]).push([[3498],{1462:e=>{e.exports=JSON.parse('{"label":"reflex\xf5es","permalink":"/blog/tags/reflexoes","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksciotta_blog=self.webpackChunksciotta_blog||[]).push([[4937],{3594:s=>{s.exports=JSON.parse('{"label":"pensamentos","permalink":"/blog/tags/pensamentos","allTagsPath":"/blog/tags","count":1}')}}]);

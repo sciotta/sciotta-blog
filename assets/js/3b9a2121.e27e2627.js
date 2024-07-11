@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksciotta_blog=self.webpackChunksciotta_blog||[]).push([[8175],{18:a=>{a.exports=JSON.parse('{"label":"di\xe1rio","permalink":"/blog/tags/diario","allTagsPath":"/blog/tags","count":1}')}}]);

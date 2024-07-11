@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksciotta_blog=self.webpackChunksciotta_blog||[]).push([[7598],{2531:e=>{e.exports=JSON.parse('{"label":"pertencimento","permalink":"/blog/tags/pertencimento","allTagsPath":"/blog/tags","count":1}')}}]);
