@@ -2,12 +2,52 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sciotta.com.br/blog</id>
     <title>Sciotta</title>
-    <updated>2024-08-12T00:00:00.000Z</updated>
+    <updated>2025-04-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sciotta.com.br/blog"/>
     <subtitle>Sciotta blog</subtitle>
     <icon>https://sciotta.com.br/img/favicon.ico</icon>
     <rights>Sciotta 2023</rights>
+    <entry>
+        <title type="html"><![CDATA[Manifesto de um Curioso Incansável]]></title>
+        <id>https://sciotta.com.br/blog/2025/04/10/manifesto-de-um-curioso</id>
+        <link href="https://sciotta.com.br/blog/2025/04/10/manifesto-de-um-curioso"/>
+        <updated>2025-04-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Não basta funcionar.]]></summary>
+        <content type="html"><![CDATA[<p><strong>Não basta funcionar.</strong><br>
+<!-- -->Quero entender por que funciona. E se não funciona, quero saber o que há por trás.<br>
+<!-- -->Linhas de código me interessam, mas as <em>linhas invisíveis</em> que ligam pessoas, símbolos e ideias… essas me fascinam.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-curiosidade-é-meu-motor">A curiosidade é meu motor.<a class="hash-link" aria-label="Link direto para A curiosidade é meu motor." title="Link direto para A curiosidade é meu motor." href="https://sciotta.com.br/blog/2025/04/10/manifesto-de-um-curioso#a-curiosidade-%C3%A9-meu-motor">​</a></h2>
+<p>Ela me move do terminal ao templo.<br>
+<!-- -->Do backlog à biblioteca.<br>
+<!-- -->Da stack trace à escuta flutuante.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="construo-soluções">Construo soluções.<a class="hash-link" aria-label="Link direto para Construo soluções." title="Link direto para Construo soluções." href="https://sciotta.com.br/blog/2025/04/10/manifesto-de-um-curioso#construo-solu%C3%A7%C3%B5es">​</a></h2>
+<p>Não só para produtos.<br>
+<!-- -->Mas para pessoas que se perdem em reuniões,
+para mim mesmo quando me esqueço do que importa.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="questiono-a-superfície">Questiono a superfície.<a class="hash-link" aria-label="Link direto para Questiono a superfície." title="Link direto para Questiono a superfície." href="https://sciotta.com.br/blog/2025/04/10/manifesto-de-um-curioso#questiono-a-superf%C3%ADcie">​</a></h2>
+<p>Nos rituais, nos sistemas, nos processos morosos.<br>
+<!-- -->Eu desço camadas, busco a raiz.<br>
+<!-- -->E se o caminho estiver oculto, é ali mesmo que eu cavo.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="tecnologia-é-minha-ferramenta">Tecnologia é minha ferramenta.<a class="hash-link" aria-label="Link direto para Tecnologia é minha ferramenta." title="Link direto para Tecnologia é minha ferramenta." href="https://sciotta.com.br/blog/2025/04/10/manifesto-de-um-curioso#tecnologia-%C3%A9-minha-ferramenta">​</a></h2>
+<p>Mas <strong>não</strong> meu fim.<br>
+<!-- -->O fim é <strong>clareza</strong>.<br>
+<!-- -->O fim é <strong>transformação</strong>.<br>
+<!-- -->O fim é <strong>reunir o que foi dito com o que precisa ser feito.</strong></p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sou-engenheiro-e-esotérico">Sou engenheiro e esotérico.<a class="hash-link" aria-label="Link direto para Sou engenheiro e esotérico." title="Link direto para Sou engenheiro e esotérico." href="https://sciotta.com.br/blog/2025/04/10/manifesto-de-um-curioso#sou-engenheiro-e-esot%C3%A9rico">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sou-racional-e-simbólico">Sou racional e simbólico.<a class="hash-link" aria-label="Link direto para Sou racional e simbólico." title="Link direto para Sou racional e simbólico." href="https://sciotta.com.br/blog/2025/04/10/manifesto-de-um-curioso#sou-racional-e-simb%C3%B3lico">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="sou-técnico-com-alma-e-alma-com-método">Sou técnico com alma e alma com método.<a class="hash-link" aria-label="Link direto para Sou técnico com alma e alma com método." title="Link direto para Sou técnico com alma e alma com método." href="https://sciotta.com.br/blog/2025/04/10/manifesto-de-um-curioso#sou-t%C3%A9cnico-com-alma-e-alma-com-m%C3%A9todo">​</a></h2>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="e-sigo-em-frente">E sigo em frente.<a class="hash-link" aria-label="Link direto para E sigo em frente." title="Link direto para E sigo em frente." href="https://sciotta.com.br/blog/2025/04/10/manifesto-de-um-curioso#e-sigo-em-frente">​</a></h2>
+<p>Com ética, com intenção,<br>
+<!-- -->com humildade pra recomeçar.<br>
+<!-- -->Porque a <strong>curiosidade não termina</strong> — ela se reinventa.</p>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Desenvolvendo um App com React Native e DDD]]></title>
         <id>https://sciotta.com.br/blog/react-native-ddd</id>
