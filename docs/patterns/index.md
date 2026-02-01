@@ -14,10 +14,10 @@ Todos os exemplos de padrões de projeto nesta seção estão escritos em TypeSc
 - [Strategy](./strategy)
 - [Singleton](./singleton)
 - [Observer](./observer)
-- Factory Method
+- [Factory Method](./factory-method)
+- [Adapter](./adapter)
+- [Decorator](./decorator)
 - Abstract Factory
-- Adapter
-- Decorator
 - Facade
 - Command
 - State
