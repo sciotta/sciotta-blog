@@ -2,7 +2,7 @@
 slug: vantagens-css-in-js
 title: Vantagens de Usar CSS-in-JS em Aplicações React
 author: Thiago Sciotta
-author_title: Front End Engineer
+author_title: Principal Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [frontend, css, react]

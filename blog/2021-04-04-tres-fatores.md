@@ -2,7 +2,7 @@
 slug: tres-fatores
 title: Fatores que fazem a diferença ao lidar com tecnologia e produto
 author: Thiago Sciotta
-author_title: Front End Engineer
+author_title: Principal Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [front-end,ci,automação,engenharia,produto,tecnologia]

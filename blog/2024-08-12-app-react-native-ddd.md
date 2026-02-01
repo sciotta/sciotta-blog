@@ -2,7 +2,7 @@
 slug: react-native-ddd
 title: Desenvolvendo um App com React Native e DDD
 author: Thiago Sciotta
-author_title: Front End Engineer
+author_title: Principal Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [react-native, ddd, arquitetura]
