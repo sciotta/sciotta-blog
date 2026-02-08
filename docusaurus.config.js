@@ -103,18 +103,12 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           blogSidebarTitle: 'Postagens recentes',
           blogTitle: 'Blog Sciotta',
           blogDescription: 'Blog de tecnologia e programação',
           showReadingTime: true,
-          editUrl:
-            'https://github.com/thiagog3/sciotta-blog/edit/master/blog/',
           feedOptions: {
             type: 'all', // required. 'rss' | 'feed' | 'all'
             title: 'Sciotta', // default to siteConfig.title
