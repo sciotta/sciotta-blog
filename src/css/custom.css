@@ -7,14 +7,34 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  /* Tema Monocromático - Modo Claro */
+  --ifm-color-primary: #1a1a1a;
+  --ifm-color-primary-dark: #0d0d0d;
+  --ifm-color-primary-darker: #000000;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #2d2d2d;
+  --ifm-color-primary-lighter: #3d3d3d;
+  --ifm-color-primary-lightest: #4d4d4d;
   --ifm-code-font-size: 95%;
+  
+  /* Links e acentos em cinza escuro */
+  --ifm-link-color: #262626;
+  --ifm-link-hover-color: #000000;
+}
+
+/* Tema escuro - branco e tons de cinza claros */
+[data-theme='dark'] {
+  --ifm-color-primary: #f5f5f5;
+  --ifm-color-primary-dark: #e0e0e0;
+  --ifm-color-primary-darker: #d4d4d4;
+  --ifm-color-primary-darkest: #b0b0b0;
+  --ifm-color-primary-light: #fafafa;
+  --ifm-color-primary-lighter: #ffffff;
+  --ifm-color-primary-lightest: #ffffff;
+  
+  /* Links e acentos em branco/cinza claro */
+  --ifm-link-color: #e5e5e5;
+  --ifm-link-hover-color: #ffffff;
 }
 
 .docusaurus-highlight-code-line {
