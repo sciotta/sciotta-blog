@@ -110,8 +110,8 @@ const config = {
         },
         blog: {
           blogSidebarTitle: 'Postagens recentes',
-          blogTitle: 'Docusaurus blog!',
-          blogDescription: 'A docusaurus powered blog!',
+          blogTitle: 'Sciotta',
+          blogDescription: 'Blog de tecnologia e programação',
           showReadingTime: true,
           editUrl:
             'https://github.com/thiagog3/sciotta-blog/edit/master/blog/',
