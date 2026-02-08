@@ -11,15 +11,20 @@ Todos os exemplos de padrões de projeto nesta seção estão escritos em TypeSc
 
 ## Lista de Padrões de Projeto
 
-- [Strategy](./strategy)
+### Padrões Criacionais
 - [Singleton](./singleton)
-- [Observer](./observer)
 - [Factory Method](./factory-method)
+- [Abstract Factory](./abstract-factory)
+
+### Padrões Estruturais
 - [Adapter](./adapter)
 - [Decorator](./decorator)
-- Abstract Factory
-- Facade
-- Command
-- State
+- [Facade](./facade)
+
+### Padrões Comportamentais
+- [Strategy](./strategy)
+- [Observer](./observer)
+- [Command](./command)
+- [State](./state)
 
 Explore os demais padrões de projeto nesta seção para aprofundar seu conhecimento e aprimorar suas habilidades de desenvolvimento de software, com exemplos práticos em TypeScript!
