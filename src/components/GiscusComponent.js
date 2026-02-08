@@ -7,21 +7,18 @@ export default function GiscusComponent() {
   
   return (
     <Giscus    
-      repo="thiagog3/sciotta-blog"
+      repo="sciotta/sciotta-blog"
       repoId="MDEwOlJlcG9zaXRvcnkzNTIzNTc5MTA="
       category="General"
       categoryId="DIC_kwDOFQCOFs4CUjav"
-      mapping="url"                        // Important! To map comments to URL
-      term="Welcome to @giscus/react component!"
+      mapping="pathname"
       strict="0"
       reactionsEnabled="1"
-      emitMetadata="1"
-      inputPosition="top"
+      emitMetadata="0"
+      inputPosition="bottom"
       theme={colorMode}
       lang="pt"
       loading="lazy"
-      crossorigin="anonymous"
-      async
     />
   );
 }
