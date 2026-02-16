@@ -101,6 +101,10 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       {
+        gtag: {
+          trackingID: 'G-MPD14XHTFV',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
         },
@@ -123,15 +127,7 @@ const config = {
       },
     ],
   ],
-  plugins: [
-    [
-      '@docusaurus/plugin-google-analytics',
-      {
-        trackingID: 'G-MPD14XHTFV',
-        anonymizeIP: true,
-      },
-    ],
-  ],
+  plugins: [],
 };
 
 module.exports = config;
