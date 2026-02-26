@@ -18,10 +18,10 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 |---|---|
 | [airweave](https://github.com/airweave-ai/airweave) | Camada open-source de context retrieval para AI Agents (RAG, busca semântica) |
 | [anthropic-quickstarts](https://github.com/anthropics/anthropic-quickstarts) | A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API |
-| [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | practice made claude perfect |
+| [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | A prática torna o Claude perfeito |
 | [claude-mem](https://github.com/thedotmack/claude-mem) | Plugin que captura sessões do Claude Code, comprime com IA e injeta contexto em sessões futuras |
 | [claw-empire](https://github.com/GreenSheep01201/claw-empire) | Command Your AI Agent Empire from the CEO Desk — A local-first AI agent office simulator that orchestrates CLI, OAuth, and API-connected agents (Claude Code, Codex CLI, Gemini CLI, OpenCode, and more) as a virtual autonomous company. |
-| [CodexBar](https://github.com/steipete/CodexBar) | Show usage stats for OpenAI Codex and Claude Code, without having to login. |
+| [CodexBar](https://github.com/steipete/CodexBar) | Mostra estatísticas de uso do OpenAI Codex e Claude Code, sem precisar fazer login. |
 | [compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | Plugin oficial de compound engineering para Claude Code |
 | [humanizer](https://github.com/blader/humanizer) | Claude Code skill that removes signs of AI-generated writing from text |
 | [Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! |
@@ -35,11 +35,11 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 |---|---|
 | [antigravity-kit](https://github.com/vudovn/antigravity-kit) | Kit de ferramentas para desenvolvimento |
 | [code-review-expert](https://github.com/sanyuan0704/code-review-expert) | Expert code review skill: SOLID, security, performance, error handling, boundary conditions |
-| [fonoster](https://github.com/fonoster/fonoster) | 🚀 The open-source alternative to Twilio. |
+| [fonoster](https://github.com/fonoster/fonoster) | 🚀 Alternativa open-source ao Twilio. |
 | [highlight](https://github.com/highlight/highlight) | highlight.io: The open source, full-stack monitoring platform. Error monitoring, session replay, logging, distributed tracing, and more. |
 | [jnv](https://github.com/ynqa/jnv) | Filtro interativo de JSON usando jq no terminal (CLI em Rust) |
 | [scraping-apis-for-devs](https://github.com/cporter202/scraping-apis-for-devs) | Coleção de APIs de scraping prontas para usar em automações e apps |
-| [TypeScript](https://github.com/microsoft/TypeScript) | TypeScript is a superset of JavaScript that compiles to clean JavaScript output. |
+| [TypeScript](https://github.com/microsoft/TypeScript) | TypeScript é um superset do JavaScript que compila para JavaScript limpo. |
 | [unkey](https://github.com/unkeyed/unkey) | Testando tradução automática |
 
 ## 🧠 Prompts / AI Resources
