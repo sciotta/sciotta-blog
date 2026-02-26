@@ -17,6 +17,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 | Repositório | Descrição |
 |---|---|
 | [airweave](https://github.com/airweave-ai/airweave) | Camada open-source de context retrieval para AI Agents (RAG, busca semântica) |
+| [anthropic-quickstarts](https://github.com/anthropics/anthropic-quickstarts) | A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API |
 | [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | practice made claude perfect |
 | [claude-mem](https://github.com/thedotmack/claude-mem) | Plugin que captura sessões do Claude Code, comprime com IA e injeta contexto em sessões futuras |
 | [claw-empire](https://github.com/GreenSheep01201/claw-empire) | Command Your AI Agent Empire from the CEO Desk — A local-first AI agent office simulator that orchestrates CLI, OAuth, and API-connected agents (Claude Code, Codex CLI, Gemini CLI, OpenCode, and more) as a virtual autonomous company. |
