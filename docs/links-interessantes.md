@@ -38,6 +38,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 | [highlight](https://github.com/highlight/highlight) | highlight.io: The open source, full-stack monitoring platform. Error monitoring, session replay, logging, distributed tracing, and more. |
 | [jnv](https://github.com/ynqa/jnv) | Filtro interativo de JSON usando jq no terminal (CLI em Rust) |
 | [scraping-apis-for-devs](https://github.com/cporter202/scraping-apis-for-devs) | Coleção de APIs de scraping prontas para usar em automações e apps |
+| [unkey](https://github.com/unkeyed/unkey) | Testando tradução automática |
 
 ## 🧠 Prompts / AI Resources
 
