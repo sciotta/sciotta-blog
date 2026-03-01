@@ -68,6 +68,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 
 | Repositório | Descrição |
 |---|---|
+| [shadcn-dashboard-landing-template](https://github.com/shadcnstore/shadcn-dashboard-landing-template) | Accelerate your development with a sleek, open-source admin dashboard and landing page built on Vite-React, Next.js, Tailwind CSS, and Shadcn/UI which is fully customizable and production-ready. |
 | [tabler](https://github.com/tabler/tabler) | Kit de dashboard HTML open-source baseado em Bootstrap 5 |
 
 ## 📈 Marketing / Startup
