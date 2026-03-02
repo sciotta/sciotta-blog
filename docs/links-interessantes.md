@@ -26,6 +26,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 | [humanizer](https://github.com/blader/humanizer) | Skill do Claude Code que remove sinais de escrita gerada por IA do texto |
 | [markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office documents to Markdown. |
 | [Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ Framework adaptativo de Web Scraping que lida com tudo, desde uma requisição única até um crawl completo! |
+| [Scriberr](https://github.com/rishikanthc/Scriberr) | Self-hosted AI audio transcription |
 | [snapai](https://github.com/betomoedano/snapai) | AI-powered icon generation CLI para React Native & Expo developers. Generate stunning app icons in seconds using OpenAI's latest models. |
 | [spacebot](https://github.com/spacedriveapp/spacebot) | Um agente IA para times, comunidades e ambientes multi-usuário. |
 | [taste-skill](https://github.com/Leonxlnx/taste-skill) | Taste-Skill (High-Agency Frontend) - dá bom gosto ao seu agente IA. impede o agente IA de gerar conteúdo genérico e sem graça, "slop"  |
