@@ -23,6 +23,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 | [claw-empire](https://github.com/GreenSheep01201/claw-empire) | Comande seu Império de Agentes IA da Mesa do CEO — Simulador local-first de escritório de agentes IA que orquestra CLI, OAuth, and API-connected agents (Claude Code, Codex CLI, Gemini CLI, OpenCode, and more) as a virtual autonomous company. |
 | [CodexBar](https://github.com/steipete/CodexBar) | Mostra estatísticas de uso do OpenAI Codex e Claude Code, sem precisar fazer login. |
 | [compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | Plugin oficial de compound engineering para Claude Code |
+| [hindsight](https://github.com/vectorize-io/hindsight) | Hindsight: Agent Memory That  Learns |
 | [humanizer](https://github.com/blader/humanizer) | Skill do Claude Code que remove sinais de escrita gerada por IA do texto |
 | [markitdown](https://github.com/microsoft/markitdown) | Python tool for converting files and office documents to Markdown. |
 | [Scrapling](https://github.com/D4Vinci/Scrapling) | 🕷️ Framework adaptativo de Web Scraping que lida com tudo, desde uma requisição única até um crawl completo! |
