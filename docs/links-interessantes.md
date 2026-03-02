@@ -40,6 +40,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 | [highlight](https://github.com/highlight/highlight) | highlight.io: Plataforma open-source de monitoramento full-stack. Monitoramento de erros, replay de sessão, logging, rastreamento distribuído e mais. |
 | [jnv](https://github.com/ynqa/jnv) | Filtro interativo de JSON usando jq no terminal (CLI em Rust) |
 | [map-to-poster](https://github.com/dimartarmizi/map-to-poster) | MapToPoster JS is a client-side web app that turns any location into a high-resolution, customizable map poster with various themes, layouts, and export options. |
+| [public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs |
 | [scraping-apis-for-devs](https://github.com/cporter202/scraping-apis-for-devs) | Coleção de APIs de scraping prontas para usar em automações e apps |
 | [TypeScript](https://github.com/microsoft/TypeScript) | TypeScript é um superset do JavaScript que compila para JavaScript limpo. |
 | [unkey](https://github.com/unkeyed/unkey) | Testando tradução automática |
