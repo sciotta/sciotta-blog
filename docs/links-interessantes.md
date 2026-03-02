@@ -29,6 +29,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 | [snapai](https://github.com/betomoedano/snapai) | AI-powered icon generation CLI para React Native & Expo developers. Generate stunning app icons in seconds using OpenAI's latest models. |
 | [spacebot](https://github.com/spacedriveapp/spacebot) | Um agente IA para times, comunidades e ambientes multi-usuário. |
 | [taste-skill](https://github.com/Leonxlnx/taste-skill) | Taste-Skill (High-Agency Frontend) - dá bom gosto ao seu agente IA. impede o agente IA de gerar conteúdo genérico e sem graça, "slop"  |
+| [waha](https://github.com/devlikeapro/waha) | WAHA - WhatsApp HTTP API (REST API) that you can configure in a click! 3 engines: WEBJS (browser based), NOWEB (websocket nodejs), GOWS (websocket go) |
 
 ## 🔧 Developer Tools
 
