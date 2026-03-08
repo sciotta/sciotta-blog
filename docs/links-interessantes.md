@@ -46,6 +46,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 | [map-to-poster](https://github.com/dimartarmizi/map-to-poster) | MapToPoster JS is a client-side web app that turns any location into a high-resolution, customizable map poster with various themes, layouts, and export options. |
 | [micro-saas-boilerplate](https://github.com/washingtonserip/micro-saas-boilerplate) | Production-ready monorepo starter with End-to-end typesafe API |
 | [MoneyPrinter](https://github.com/FujiwaraChoki/MoneyPrinter) | Automate Creation of YouTube Shorts using MoviePy. |
+| [paperclip](https://github.com/paperclipai/paperclip) | Open-source orchestration for zero-human companies |
 | [public-apis](https://github.com/public-apis/public-apis) | A collective list of free APIs |
 | [scraping-apis-for-devs](https://github.com/cporter202/scraping-apis-for-devs) | Coleção de APIs de scraping prontas para usar em automações e apps |
 | [TypeScript](https://github.com/microsoft/TypeScript) | TypeScript é um superset do JavaScript que compila para JavaScript limpo. |
