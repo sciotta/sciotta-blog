@@ -16,6 +16,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 
 | Repositório | Descrição |
 |---|---|
+| [agency-agents](https://github.com/msitarzewski/agency-agents/) | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. |
 | [airweave](https://github.com/airweave-ai/airweave) | Camada open-source de context retrieval para AI Agents (RAG, busca semântica) |
 | [anthropic-quickstarts](https://github.com/anthropics/anthropic-quickstarts) | Uma coleção de projects projetados para ajudar desenvolvedores a começar rapidamente com construir aplicações using the Claude API |
 | [chartli](https://github.com/ahmadawais/chartli) | CLI that turns plain numbers into terminal charts. ascii, spark, bars, columns, heatmap, unicode, braille, svg.  |
