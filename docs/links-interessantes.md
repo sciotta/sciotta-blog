@@ -42,6 +42,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 | [shadcn-dashboard-landing-template](https://github.com/shadcnstore/shadcn-dashboard-landing-template) | Accelerate your development with a sleek, open-source admin dashboard and landing page built on Vite-React, Next.js, Tailwind CSS, and Shadcn/UI which is fully customizable and production-ready. |
 | [supersplat](https://github.com/playcanvas/supersplat) | 3D Gaussian Splat Editor |
 | [tabler](https://github.com/tabler/tabler) | Kit de dashboard HTML open-source baseado em Bootstrap 5 |
+| [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
 
 ## 📚 Resources & Collections
 
