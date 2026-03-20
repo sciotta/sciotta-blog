@@ -17,6 +17,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 | Repositório | Descrição |
 |---|---|
 | [agency-agents](https://github.com/msitarzewski/agency-agents/) | A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables. |
+| [gstack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
 
 ## 🔧 Developer Tools
 
