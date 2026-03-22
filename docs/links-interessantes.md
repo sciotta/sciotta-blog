@@ -42,6 +42,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 
 | Repositório | Descrição |
 |---|---|
+| [animate-ui](https://github.com/imskyleen/animate-ui) | Fully animated, open-source component distribution built with React, TypeScript, Tailwind CSS, Motion, and Shadcn CLI. Browse a list of components you can install, modify, and use in your projects. |
 | [shadcn-dashboard-landing-template](https://github.com/shadcnstore/shadcn-dashboard-landing-template) | Accelerate your development with a sleek, open-source admin dashboard and landing page built on Vite-React, Next.js, Tailwind CSS, and Shadcn/UI which is fully customizable and production-ready. |
 | [supersplat](https://github.com/playcanvas/supersplat) | 3D Gaussian Splat Editor |
 | [tabler](https://github.com/tabler/tabler) | Kit de dashboard HTML open-source baseado em Bootstrap 5 |
