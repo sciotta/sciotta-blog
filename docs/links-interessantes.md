@@ -21,6 +21,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 | [keploy](https://github.com/keploy/keploy) | Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing. |
 | [shadify](https://github.com/CopilotKit/shadify) | Stream AI generated Shadcn components, not just text. |
 | [TablePro](https://github.com/TableProApp/TablePro) | A fast, native macOS database client with built-in AI assistant. |
+| [VibeVoice](https://github.com/microsoft/VibeVoice) | Open-Source Frontier Voice AI |
 
 ## 🔧 Developer Tools
 
