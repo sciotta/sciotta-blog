@@ -50,6 +50,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 | [supersplat](https://github.com/playcanvas/supersplat) | 3D Gaussian Splat Editor |
 | [survey-creator](https://github.com/surveyjs/survey-creator) | Scalable open-source survey software to generate dynamic JSON-driven forms within your JavaScript application. The form builder features a drag-and-drop UI, CSS Theme Editor, and GUI for conditional logic and form branching.  |
 | [tabler](https://github.com/tabler/tabler) | Kit de dashboard HTML open-source baseado em Bootstrap 5 |
+| [twenty](https://github.com/twentyhq/twenty) | Building a modern alternative to Salesforce, powered by the community. |
 | [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
 
 ## 📚 Resources & Collections
