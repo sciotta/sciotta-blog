@@ -28,6 +28,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 | Repositório | Descrição |
 |---|---|
 | [antigravity-kit](https://github.com/vudovn/antigravity-kit) | Kit de ferramentas para desenvolvimento |
+| [FossFLOW](https://github.com/stan-smith/FossFLOW) | Make beautiful isometric infrastructure diagrams |
 | [jnv](https://github.com/ynqa/jnv) | Filtro interativo de JSON usando jq no terminal (CLI em Rust) |
 | [OpenGranola](https://github.com/yazinsai/OpenGranola) |  |
 | [TypeScript](https://github.com/microsoft/TypeScript) | TypeScript é um superset do JavaScript que compila para JavaScript limpo. |
