@@ -20,6 +20,7 @@ Coleção curada de repositórios e ferramentas que achei úteis ou interessante
 | [gstack](https://github.com/garrytan/gstack) | Use Garry Tan's exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA |
 | [keploy](https://github.com/keploy/keploy) | Open-source platform for creating safe, isolated production sandboxes for API, integration, and E2E testing. |
 | [shadify](https://github.com/CopilotKit/shadify) | Stream AI generated Shadcn components, not just text. |
+| [TablePro](https://github.com/TableProApp/TablePro) | A fast, native macOS database client with built-in AI assistant. |
 
 ## 🔧 Developer Tools
 
