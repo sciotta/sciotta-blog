@@ -92,7 +92,7 @@
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #999;
+  color: #767676;
   font-weight: 600;
   margin: 0 0 16px;
   text-align: center;
@@ -116,6 +116,8 @@
   border-color: #333;
 }
 
+/* Stretched link: paints over the card text on purpose so the whole card is
+   clickable. Text isn't independently selectable — accepted trade-off. */
 .home .oss-site-link {
   position: absolute;
   inset: 0;

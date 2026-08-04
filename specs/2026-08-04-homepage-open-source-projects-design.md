@@ -1,7 +1,7 @@
 # Destaque de projetos open source na home
 
 **Data:** 2026-08-04
-**Status:** Aprovado, aguardando plano de implementação
+**Status:** Implementado e revisado (branch worktree-homepage-oss-projects)
 
 ## Objetivo
 

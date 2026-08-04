@@ -84,7 +84,8 @@ export default function Hello() {
                     <span className="oss-card-name">{project.name}</span>
                     <p className="oss-card-description">{project.description}</p>
                     <span className="oss-card-url">
-                      {project.siteUrl.replace(/^https?:\/\//, '').replace(/\/$/, '')} ↗
+                      {project.siteUrl.replace(/^https?:\/\//, '').replace(/\/$/, '')}{' '}
+                      <span aria-hidden="true">↗</span>
                     </span>
                   </div>
                   <a

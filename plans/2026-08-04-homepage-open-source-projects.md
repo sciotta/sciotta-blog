@@ -41,11 +41,11 @@
 **Interfaces:**
 - Produces: componente `GitHubIcon({ size })` (default `size = 24`), array `openSourceProjects` (cada item: `{ name, description, siteUrl, githubUrl }`), nova `<section className="oss">` renderizada dentro de `<div className="home">` logo após `<nav className="social-nav">`.
 
-- [ ] **Step 1: Ler o arquivo atual para confirmar que não mudou desde a spec**
+- [x] **Step 1: Ler o arquivo atual para confirmar que não mudou desde a spec**
 
 Conteúdo atual de referência (`src/pages/index.js`, 57 linhas): componente `Hello` renderiza `<div className="home"><section><article>` com logo, `<p className="intro">`, `<div className="links">` (pills Blog/Wiki), e `<nav className="social-nav">` com três `<SocialIcon>` (LinkedIn, GitHub, YouTube), cada um com um `<svg>` inline.
 
-- [ ] **Step 2: Extrair o ícone do GitHub para um componente `GitHubIcon`**
+- [x] **Step 2: Extrair o ícone do GitHub para um componente `GitHubIcon`**
 
 Substituir o `<svg>` inline do GitHub dentro do `SocialIcon href="https://github.com/thiagog3"` por um componente reutilizável. Adicionar logo após a definição de `SocialIcon`:
 
@@ -67,7 +67,7 @@ E trocar o `<svg>` inline dentro do `SocialIcon` do GitHub (dentro de `<nav clas
 
 (Mantém o mesmo `href`/`label` que já existia — só troca o conteúdo do `<svg>` inline pelo componente.)
 
-- [ ] **Step 3: Adicionar o array `openSourceProjects`**
+- [x] **Step 3: Adicionar o array `openSourceProjects`**
 
 Logo após a definição de `GitHubIcon`, adicionar:
 
@@ -88,7 +88,7 @@ const openSourceProjects = [
 ];
 ```
 
-- [ ] **Step 4: Renderizar a seção `oss` após `<nav className="social-nav">`**
+- [x] **Step 4: Renderizar a seção `oss` após `<nav className="social-nav">`**
 
 Dentro de `<article>`, logo depois do `</nav>` que fecha `social-nav` e antes do `</article>`, adicionar:
 
@@ -127,18 +127,18 @@ Dentro de `<article>`, logo depois do `</nav>` que fecha `social-nav` e antes do
 </section>
 ```
 
-- [ ] **Step 5: Verificar que o build não quebra**
+- [x] **Step 5: Verificar que o build não quebra**
 
 Run: `yarn build`
 Expected: termina com `[SUCCESS] Generated static files in "build".` e sem erros — em particular sem erro de link quebrado (os links são todos externos, `onBrokenLinks: 'throw'` não se aplica a eles).
 
-- [ ] **Step 6: Verificar visualmente (sem estilo ainda)**
+- [x] **Step 6: Verificar visualmente (sem estilo ainda)**
 
 Run: `yarn start` (mantém rodando em background), depois abrir `http://localhost:3000/` no browser.
 Expected: a home carrega normalmente (logo, intro, pills, ícones sociais inalterados) e, abaixo dos ícones sociais, aparecem — sem estilo de card ainda — o texto "Projetos Open Source" e, para cada projeto, nome / descrição / URL abreviada, cada um clicável levando ao site correspondente. Nenhum erro no console do browser.
 Parar o dev server depois de confirmar (`Ctrl+C` ou encerrar o processo em background).
 
-- [ ] **Step 7: Commit**
+- [x] **Step 7: Commit**
 
 ```bash
 git add src/pages/index.js
@@ -155,7 +155,7 @@ git commit -m "feat: add open source projects section markup to homepage"
 **Interfaces:**
 - Consumes: classes `.oss`, `.oss-title`, `.oss-grid`, `.oss-card`, `.oss-site-link`, `.oss-card-body`, `.oss-card-name`, `.oss-card-description`, `.oss-card-url`, `.oss-github-link` produzidas no JSX da Task 1.
 
-- [ ] **Step 1: Adicionar os estilos base (modo claro) antes do bloco `/* Dark mode */`**
+- [x] **Step 1: Adicionar os estilos base (modo claro) antes do bloco `/* Dark mode */`**
 
 Em `src/pages/index.css`, logo antes do comentário `/* Dark mode */` (linha 83 do arquivo atual), inserir:
 
@@ -248,7 +248,7 @@ Em `src/pages/index.css`, logo antes do comentário `/* Dark mode */` (linha 83 
 }
 ```
 
-- [ ] **Step 2: Adicionar os overrides de dark mode**
+- [x] **Step 2: Adicionar os overrides de dark mode**
 
 Dentro do bloco `/* Dark mode */` já existente (após `[data-theme='dark'] .home .social-icon:hover { color: #fff; }`, antes do `@media only screen and (min-width: 600px)` final), adicionar:
 
@@ -291,7 +291,7 @@ Dentro do bloco `/* Dark mode */` já existente (após `[data-theme='dark'] .hom
 }
 ```
 
-- [ ] **Step 3: Adicionar o breakpoint responsivo**
+- [x] **Step 3: Adicionar o breakpoint responsivo**
 
 Dentro do bloco `@media only screen and (min-width: 600px) { .home article { width: 60vw; } }` já existente no final do arquivo, adicionar a regra do grid ao lado de `.home article`:
 
@@ -311,23 +311,23 @@ Dentro do bloco `@media only screen and (min-width: 600px) { .home article { wid
 }
 ```
 
-- [ ] **Step 4: Verificar visualmente — modo claro, desktop**
+- [x] **Step 4: Verificar visualmente — modo claro, desktop**
 
 Run: `yarn start`, abrir `http://localhost:3000/` com a janela larga (≥600px).
 Expected: os dois cards aparecem lado a lado, com borda fina cinza, título "PROJETOS OPEN SOURCE" pequeno e centralizado acima, mesmo estilo tipográfico do resto da home. Hover no card escurece a borda; hover no ícone do GitHub (canto superior direito do card) mostra um fundo cinza claro circular.
 
-- [ ] **Step 5: Verificar visualmente — modo escuro**
+- [x] **Step 5: Verificar visualmente — modo escuro**
 
 No mesmo browser, alternar para dark mode (toggle do Docusaurus no navbar).
 Expected: borda e textos usam os tons claros definidos nos overrides (`#444`/`#f5f5f5`/`#aaa`/`#ddd`/`#999`), sem nenhum elemento com contraste ilegível.
 
-- [ ] **Step 6: Verificar visualmente — mobile**
+- [x] **Step 6: Verificar visualmente — mobile**
 
 Redimensionar a janela do browser (ou usar o modo responsivo do DevTools) para menos de 600px de largura.
 Expected: os dois cards empilham verticalmente, cada um ocupando a largura total do artigo, sem overflow horizontal.
 Parar o dev server depois de confirmar.
 
-- [ ] **Step 7: Commit**
+- [x] **Step 7: Commit**
 
 ```bash
 git add src/pages/index.css
@@ -341,16 +341,16 @@ git commit -m "style: add light/dark/responsive styles for open source section"
 **Files:**
 - Nenhum arquivo novo — apenas verificação sobre o resultado das Tasks 1 e 2.
 
-- [ ] **Step 1: Rodar o build de produção**
+- [x] **Step 1: Rodar o build de produção**
 
 Run: `yarn build`
 Expected: `[SUCCESS] Generated static files in "build".`, sem warnings novos relacionados a `src/pages/index.js` ou `src/pages/index.css`.
 
-- [ ] **Step 2: Servir o build e abrir no browser**
+- [x] **Step 2: Servir o build e abrir no browser**
 
 Run: `yarn serve`, abrir a URL impressa no terminal (por padrão `http://localhost:3000/`).
 
-- [ ] **Step 3: Checklist de comportamento dos links**
+- [x] **Step 3: Checklist de comportamento dos links**
 
 No card do **tokens-to-styles**:
 - Clicar em qualquer ponto do card fora do ícone do GitHub → abre `https://tokens-to-styles.sciotta.com.br/` em nova aba.
@@ -358,19 +358,19 @@ No card do **tokens-to-styles**:
 
 Repetir os dois cliques para o card do **color-doctor**, confirmando `https://color-doctor.sciotta.com.br/` e `https://github.com/sciotta/color-doctor` respectivamente.
 
-- [ ] **Step 4: Checklist de acessibilidade básica**
+- [x] **Step 4: Checklist de acessibilidade básica**
 
 Abrir o DevTools, inspecionar os dois `<a>` de cada card e confirmar:
 - O link do card (stretched) tem `aria-label="Abrir tokens-to-styles"` / `aria-label="Abrir color-doctor"`.
 - O link do ícone do GitHub tem `aria-label="Repositório no GitHub de tokens-to-styles"` / `aria-label="Repositório no GitHub de color-doctor"`.
 - Nenhum dos dois `<a>` está aninhado dentro do outro (devem ser irmãos dentro de `.oss-card`).
 
-- [ ] **Step 5: Navegar por teclado**
+- [x] **Step 5: Navegar por teclado**
 
 Usar Tab a partir do início da página até chegar nos cards.
 Expected: dá pra alcançar e ativar (Enter) tanto o link do card quanto o ícone do GitHub via teclado, na ordem em que aparecem no DOM.
 
-- [ ] **Step 6: Encerrar o servidor**
+- [x] **Step 6: Encerrar o servidor**
 
 Parar o processo do `yarn serve`.
 
