@@ -127,7 +127,7 @@ const config = {
       },
     ],
   ],
-  plugins: [],
+  plugins: ['./plugins/homepage-feed'],
 };
 
 module.exports = config;
