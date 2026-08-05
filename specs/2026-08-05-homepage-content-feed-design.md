@@ -22,7 +22,9 @@ Investigação técnica (ver notas abaixo) confirmou que nenhuma API oficial do 
 - **Feeds RSS/JSON** (`/blog/feed.json` etc.) são gerados no hook `postBuild`, que roda depois da home já ter sido renderizada estaticamente — não dá pra ler o feed durante o build da própria home. Também não têm campo de imagem.
 - Nenhuma página da wiki tem data de publicação (frontmatter só tem `sidebar_position`) nem imagem de capa hoje.
 
-**Solução:** um plugin local (`plugins/homepage-feed/index.js`) que, no hook `loadContent()`, gera os dois conjuntos de dados diretamente (reaproveitando `generateBlogPosts` do próprio `@docusaurus/plugin-content-blog/lib/blogUtils` pro blog, e lendo `docs/**/*.md` manualmente pra wiki), combina, ordena e expõe tudo via `actions.setGlobalData()`. A home lê com `usePluginData('homepage-feed-plugin')` de `@docusaurus/useGlobalData`. Isso roda 100% em build-time — sem chamada de rede no cliente, sem `useIsBrowser`/`BrowserOnly` necessário pra buscar os dados (só pro comportamento de "carregar mais", que é puramente client-side sobre dados já embutidos no bundle).
+**Solução:** um plugin local (`plugins/homepage-feed/index.js`) que, no hook `loadContent()`, gera os dois conjuntos de dados lendo os arquivos `.md` diretamente com `gray-matter` (blog e wiki, mesma técnica pros dois — ver nota abaixo sobre por que não reaproveitar `generateBlogPosts`), combina, ordena e expõe tudo via `actions.setGlobalData()`. A home lê com `usePluginData('homepage-feed-plugin')` de `@docusaurus/useGlobalData`. Isso roda 100% em build-time — sem chamada de rede no cliente, sem `useIsBrowser`/`BrowserOnly` necessário pra buscar os dados (só pro comportamento de "carregar mais", que é puramente client-side sobre dados já embutidos no bundle).
+
+**Por que não usar `generateBlogPosts` do `@docusaurus/plugin-content-blog/lib/blogUtils` (descartado durante o planejamento):** essa função exige o objeto `options` inteiro já validado pelo schema interno do plugin (mais de 20 campos — `include`, `exclude`, `truncateMarker`, `readingTime`, `authorsMapPath`, `sortPosts`, etc.), e é uma API interna não-versionada (não faz parte do contrato público do pacote, pode mudar em qualquer patch). Replicar isso à mão é frágil e difícil de validar sem rodar de verdade. Como o frontmatter dos posts já é simples e uniforme (confirmado nos 13 arquivos de `blog/`) e todos usam `<!--truncate-->`, ler o arquivo direto com `gray-matter` — a mesma técnica usada pra wiki — é mais simples, robusto, e não depende de API interna nenhuma.
 
 ## Decisões de design (validadas visualmente com o usuário)
 
@@ -45,17 +47,23 @@ Novo plugin Docusaurus, registrado em `docusaurus.config.js` (`plugins: [...]`, 
 
 **`loadContent()`** gera dois conjuntos de itens e combina:
 
-- **Blog:** chama `generateBlogPosts` (importado de `@docusaurus/plugin-content-blog/lib/blogUtils`) com as mesmas opções já usadas pelo preset `classic` pro blog (`contentPath: 'blog'`, etc. — reaproveita a config existente de `docusaurus.config.js`, não duplica valores). Cada post gera um item:
-  ```
-  { type: 'blog', title, description, date, permalink, image: frontMatter.image ?? null }
-  ```
-  `description` vem pronto do próprio Docusaurus (gerado a partir do `<!--truncate-->`, que todo post já usa).
+Ambos os extratores usam `gray-matter` (adicionar como devDependency direta em `package.json` — hoje só está disponível como dependência transitiva do próprio Docusaurus, o que é frágil) pra separar frontmatter do corpo, e uma função utilitária compartilhada de excerpt (remove sintaxe markdown — headers, links, ênfase, blocos de código — e corta no limite de ~150 caracteres, na última palavra completa).
 
-- **Wiki:** varre `docs/**/*.md` (glob recursivo), lê frontmatter com `gray-matter` (já presente como dependência transitiva do próprio Docusaurus — adicionar como devDependency direta em `package.json`, já que hoje só é resolvida de forma implícita e isso é frágil). Pra cada arquivo:
-  - `title`: do frontmatter, ou do primeiro `# heading` do corpo se não houver.
-  - `description`: gerada a partir do corpo — remove sintaxe markdown (headers, links, ênfase, blocos de código) e pega os primeiros ~150 caracteres, cortando na última palavra completa.
-  - `date`: `git log -1 --format=%aI -- <caminho-do-arquivo>` (via `child_process.execSync`, chamado uma vez por arquivo em build-time).
-  - `permalink`: derivado do caminho do arquivo dentro de `docs/` (mesma lógica de slug que o Docusaurus já usa pra gerar as URLs de `/docs/...`).
+- **Blog:** lê todo `.md` em `blog/*.md`. Pra cada arquivo:
+  - `title`: `frontmatter.title`.
+  - `date`: primeiros 10 caracteres do nome do arquivo (`YYYY-MM-DD-slug.md` → `YYYY-MM-DD`), igual ao que o próprio Docusaurus usa quando não há `date:` no frontmatter (nenhum post deste repo define `date:`).
+  - `description`: gerada a partir do corpo, usando só o trecho **antes** do marcador `<!--truncate-->` (presente em todo post) — mesma função utilitária de excerpt da wiki.
+  - `permalink`: `/blog/${frontmatter.slug}` (todo post já define `slug:` explicitamente no frontmatter).
+  - `image`: `frontmatter.image` (presente em todos os 13 posts atuais).
+  ```
+  { type: 'blog', title, description, date, permalink, image }
+  ```
+
+- **Wiki:** varre `docs/**/*.md` (glob recursivo). Pra cada arquivo:
+  - `title`: do frontmatter (`frontmatter.title`), ou do primeiro `# heading` do corpo se não houver.
+  - `description`: gerada a partir do corpo inteiro (não há marcador de truncate na wiki) com a mesma função utilitária de excerpt.
+  - `date`: `git log -1 --format=%aI -- <caminho-do-arquivo>` (via `child_process.execSync`, chamado uma vez por arquivo em build-time); se vazio (histórico ausente), cai pra `fs.statSync(caminho).mtime`.
+  - `permalink`: `frontmatter.slug` se existir (nenhum arquivo atual define isso, mas o código deve respeitar caso apareça no futuro — mesmo comportamento do Docusaurus); senão, derivado do caminho do arquivo dentro de `docs/`: remove a extensão `.md`, remove o segmento final se for `index`, prefixa com `/docs/`. Exemplos: `docs/intro.md` → `/docs/intro`; `docs/patterns/index.md` → `/docs/patterns`; `docs/patterns/singleton.md` → `/docs/patterns/singleton`.
   - `image`: sempre `null` (nenhuma página da wiki tem imagem hoje).
   ```
   { type: 'wiki', title, description, date, permalink, image: null }
