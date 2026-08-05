@@ -1,7 +1,7 @@
 # Harmonização da parte superior da home com a seção Open Source
 
 **Data:** 2026-08-05
-**Status:** Aprovado, aguardando plano de implementação
+**Status:** Implementado e revisado (branch harmonize-homepage-upper)
 
 ## Objetivo
 

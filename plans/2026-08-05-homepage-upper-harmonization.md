@@ -36,13 +36,13 @@
 ### Task 1: Harmonizar botões, subtítulo e espaçamento em `index.css`
 
 **Files:**
-- Modify: `src/pages/index.css` (arquivo inteiro tem 245 linhas atualmente, conteúdo de referência abaixo)
+- Modify: `src/pages/index.css` (arquivo inteiro tem 244 linhas atualmente, conteúdo de referência abaixo)
 
 **Interfaces:**
 - Consumes: nenhuma — edição direta de regras CSS já existentes, sem depender de nenhuma outra task.
 - Produces: nenhuma interface nova — este é o único task do plano.
 
-- [ ] **Step 1: Confirmar que o arquivo não mudou desde a spec**
+- [x] **Step 1: Confirmar que o arquivo não mudou desde a spec**
 
 Ler `src/pages/index.css` e confirmar que os seguintes blocos existem com o conteúdo abaixo (se algo divergir, PARAR e reportar NEEDS_CONTEXT em vez de adivinhar):
 
@@ -102,7 +102,7 @@ Ler `src/pages/index.css` e confirmar que os seguintes blocos existem com o cont
 }
 ```
 
-- [ ] **Step 2: Reduzir o subtítulo**
+- [x] **Step 2: Reduzir o subtítulo**
 
 Em `.home .intro`, trocar `font-size: 20px;` por `font-size: 16px;`. Nenhuma outra propriedade do bloco muda:
 
@@ -115,7 +115,7 @@ Em `.home .intro`, trocar `font-size: 20px;` por `font-size: 16px;`. Nenhuma out
 }
 ```
 
-- [ ] **Step 3: Suavizar o raio dos botões e trocar o hover para "só borda"**
+- [x] **Step 3: Suavizar o raio dos botões e trocar o hover para "só borda"**
 
 Em `.home .link-pill`, trocar `border-radius: 999px;` por `border-radius: 8px;`. Em `.home .link-pill:hover`, substituir o bloco inteiro:
 
@@ -138,7 +138,7 @@ Em `.home .link-pill`, trocar `border-radius: 999px;` por `border-radius: 8px;`.
 }
 ```
 
-- [ ] **Step 4: Espelhar o hover no dark mode**
+- [x] **Step 4: Espelhar o hover no dark mode**
 
 Substituir `[data-theme='dark'] .home .link-pill:hover` (o bloco `[data-theme='dark'] .home .link-pill` que define `border-color`/`color` da base **não muda**, só o `:hover`):
 
@@ -153,7 +153,7 @@ Substituir `[data-theme='dark'] .home .link-pill:hover` (o bloco `[data-theme='d
 }
 ```
 
-- [ ] **Step 5: Remover a linha divisória acima de "Projetos Open Source"**
+- [x] **Step 5: Remover a linha divisória acima de "Projetos Open Source"**
 
 Em `.home .oss`, remover `padding-top: 32px;` e `border-top: 1px solid #eee;`, e trocar `margin-top: 40px;` por `margin-top: 64px;`:
 
@@ -166,12 +166,12 @@ Em `.home .oss`, remover `padding-top: 32px;` e `border-top: 1px solid #eee;`, e
 
 Remover completamente o bloco `[data-theme='dark'] .home .oss { border-top-color: #333; }` (não sobra nenhuma propriedade dark-mode-específica para `.oss` em si — os filhos como `.oss-title`, `.oss-card` etc. mantêm seus próprios overrides de dark mode, que não mudam nesta task).
 
-- [ ] **Step 6: Verificar que o build não quebra**
+- [x] **Step 6: Verificar que o build não quebra**
 
 Run: `yarn build`
 Expected: termina com `[SUCCESS] Generated static files in "build".`, sem erros.
 
-- [ ] **Step 7: Verificar visualmente — light mode**
+- [x] **Step 7: Verificar visualmente — light mode**
 
 Run: `yarn start`, abrir `http://localhost:3000/`.
 Expected:
@@ -180,7 +180,7 @@ Expected:
 - O texto "Software developer, building things for the web." está visivelmente menor que antes (16px), mais próximo da escala do resto da página.
 - Não há mais nenhuma linha horizontal entre os ícones sociais e o título "PROJETOS OPEN SOURCE" — só espaço.
 
-- [ ] **Step 8: Verificar visualmente — dark mode**
+- [x] **Step 8: Verificar visualmente — dark mode**
 
 No mesmo browser, alternar para dark mode (toggle do Docusaurus no navbar de qualquer página que não seja a home, já que a home não renderiza `<Layout>`/navbar — ou definir `data-theme="dark"` via DevTools no `<html>` e recarregar `/`).
 Expected:
@@ -188,7 +188,7 @@ Expected:
 - Nenhuma linha divisória acima da seção Open Source (mesma ausência de borda que no claro).
 Parar o dev server depois de confirmar.
 
-- [ ] **Step 9: Commit**
+- [x] **Step 9: Commit**
 
 ```bash
 git add src/pages/index.css

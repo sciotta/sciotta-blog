@@ -31,7 +31,7 @@
   line-height: 1.6;
 }
 
-/* Link pills */
+/* Nav buttons */
 .home .links {
   display: flex;
   justify-content: center;
@@ -48,12 +48,11 @@
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
-  transition: all 0.2s ease;
+  transition: border-color 0.2s ease;
 }
 
 .home .link-pill:hover {
   border-color: #000;
-  text-decoration: none;
 }
 
 /* Social icons */
@@ -81,7 +80,7 @@
 
 /* Open Source section */
 .home .oss {
-  margin-top: 64px;
+  margin-top: 72px;
   text-align: left;
 }
 
