@@ -29,7 +29,10 @@ function getFileDate(filePath) {
     }
   } catch (error) {
     // sem histórico git disponível (ex: clone raso) — cai no fallback abaixo
+    console.warn(`homepage-feed: no git history found for ${filePath}, falling back to file mtime for its date`);
+    return fs.statSync(filePath).mtime.toISOString();
   }
+  console.warn(`homepage-feed: no git history found for ${filePath}, falling back to file mtime for its date`);
   return fs.statSync(filePath).mtime.toISOString();
 }
 
@@ -55,6 +58,17 @@ function getTitle(frontmatter, content) {
   return heading ? heading[1].trim() : 'Wiki';
 }
 
+function stripLeadingHeading(content) {
+  return content.replace(/^\s*#{1,6}\s+.+\n?/, '');
+}
+
+function getDescription(frontmatter, content) {
+  if (frontmatter.description) {
+    return frontmatter.description;
+  }
+  return excerpt(stripLeadingHeading(content));
+}
+
 function getWikiItems() {
   return listMarkdownFiles(DOCS_DIR).map((filePath) => {
     const raw = fs.readFileSync(filePath, 'utf8');
@@ -62,7 +76,7 @@ function getWikiItems() {
     return {
       type: 'wiki',
       title: getTitle(frontmatter, content),
-      description: excerpt(content),
+      description: getDescription(frontmatter, content),
       date: getFileDate(filePath),
       permalink: derivePermalink(filePath, frontmatter),
       image: null,
