@@ -25,7 +25,7 @@
 }
 
 .home .intro {
-  font-size: 20px;
+  font-size: 16px;
   color: #555;
   margin-bottom: 32px;
   line-height: 1.6;
@@ -43,7 +43,7 @@
   display: inline-block;
   padding: 10px 32px;
   border: 1.5px solid #333;
-  border-radius: 999px;
+  border-radius: 8px;
   color: #333;
   font-size: 16px;
   font-weight: 600;
@@ -52,8 +52,7 @@
 }
 
 .home .link-pill:hover {
-  background: #333;
-  color: #fff;
+  border-color: #000;
   text-decoration: none;
 }
 
@@ -82,9 +81,7 @@
 
 /* Open Source section */
 .home .oss {
-  margin-top: 40px;
-  padding-top: 32px;
-  border-top: 1px solid #eee;
+  margin-top: 64px;
   text-align: left;
 }
 
@@ -180,8 +177,7 @@
 }
 
 [data-theme='dark'] .home .link-pill:hover {
-  background: #f0f0f0;
-  color: #1a1a1a;
+  border-color: #fff;
 }
 
 [data-theme='dark'] .home .social-icon {
@@ -190,10 +186,6 @@
 
 [data-theme='dark'] .home .social-icon:hover {
   color: #fff;
-}
-
-[data-theme='dark'] .home .oss {
-  border-top-color: #333;
 }
 
 [data-theme='dark'] .home .oss-title {
