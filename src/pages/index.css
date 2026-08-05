@@ -7,14 +7,14 @@
   padding: 0;
 }
 
-.home section {
+.home > section {
   display: grid;
   align-items: center;
   justify-content: center;
   margin: auto;
 }
 
-.home article {
+.home > section > article {
   width: 80vw;
   max-width: 600px;
 }
@@ -345,7 +345,7 @@
 }
 
 @media only screen and (min-width: 600px) {
-  .home article {
+  .home > section > article {
     width: 60vw;
   }
 
