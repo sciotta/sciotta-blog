@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './index.css';
 import SciottaLogoUrl from '@site/static/img/sciotta.png';
 import SciottaDarkLogoUrl from '@site/static/img/sciotta-dark.png';
 import useIsBrowser from '@docusaurus/useIsBrowser';
+import {usePluginData} from '@docusaurus/useGlobalData';
 
 function useLogo() {
   const isBrowser = useIsBrowser();
@@ -38,8 +39,25 @@ const openSourceProjects = [
   },
 ];
 
+const FEED_MONTHS_PT = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
+
+function formatFeedDate(isoString) {
+  const date = new Date(isoString);
+  const day = String(date.getUTCDate()).padStart(2, '0');
+  const month = FEED_MONTHS_PT[date.getUTCMonth()];
+  const year = date.getUTCFullYear();
+  return `${day} ${month} ${year}`;
+}
+
+const FEED_INITIAL_VISIBLE = 6;
+const FEED_LOAD_MORE_BATCH = 6;
+
 export default function Hello() {
   const logoUrl = useLogo();
+  const feedItems = usePluginData('homepage-feed-plugin');
+  const [visibleCount, setVisibleCount] = useState(FEED_INITIAL_VISIBLE);
+  const visibleFeedItems = feedItems.slice(0, visibleCount);
+  const hasMoreFeedItems = visibleCount < feedItems.length;
 
   return (
     <div className="home">
@@ -100,6 +118,40 @@ export default function Hello() {
                 </div>
               ))}
             </div>
+          </section>
+          <section className="feed">
+            <h2 className="feed-title">Conteúdo</h2>
+            <div className="feed-grid">
+              {visibleFeedItems.map((item) => (
+                <article className="feed-item" key={item.permalink}>
+                  <a href={item.permalink} className="feed-item-link" aria-label={item.title}>
+                    {item.image ? (
+                      <img src={item.image} alt="" className="feed-item-image" />
+                    ) : (
+                      <div className="feed-item-image feed-item-image--fallback" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="1.5">
+                          <path d="M4 4h11a2 2 0 012 2v14H6a2 2 0 01-2-2V4z" />
+                          <path d="M4 4a2 2 0 012-2h9v16" />
+                        </svg>
+                      </div>
+                    )}
+                    <span className="feed-item-type">{item.type === 'blog' ? 'Artigo' : 'Wiki'}</span>
+                    <h3 className="feed-item-title">{item.title}</h3>
+                    <p className="feed-item-description">{item.description}</p>
+                    <span className="feed-item-date">{formatFeedDate(item.date)}</span>
+                  </a>
+                </article>
+              ))}
+            </div>
+            {hasMoreFeedItems && (
+              <button
+                type="button"
+                className="feed-load-more"
+                onClick={() => setVisibleCount((count) => count + FEED_LOAD_MORE_BATCH)}
+              >
+                Carregar mais
+              </button>
+            )}
           </section>
         </article>
       </section>
