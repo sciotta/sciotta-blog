@@ -6,7 +6,7 @@ author_title: Principal Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [acessibilidade, a11y, react, frontend, design-system, downshift]
-image: https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=1200
+image: /img/feed/blog/2026-02-23-acessibilidade-componentes-downshift.jpg
 enableComments: true
 ---
 

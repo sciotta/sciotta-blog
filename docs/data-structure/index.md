@@ -1,3 +1,7 @@
+---
+image: /img/feed/wiki/data-structure-index.jpg
+---
+
 # Estrutura de Dados
 
 Estruturas de dados são a base para a organização, gerenciamento e armazenamento eficiente de dados, possibilitando que programas e algoritmos possam acessar e manipular esses dados de maneira eficiente. Elas desempenham um papel crucial no desenvolvimento de software, ajudando a melhorar o desempenho e a escalabilidade das aplicações. Nesta seção, exploraremos os conceitos fundamentais e as diversas estruturas de dados, além de suas aplicações práticas.

@@ -6,7 +6,7 @@ author_title: Principal Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [front-end,ci,automação,engenharia,produto,tecnologia]
-image: https://gaea.com.br/wp-content/uploads/2019/01/original-103f11ff7cee30e6e968fb48a6271481.jpg
+image: /img/feed/blog/2021-04-04-tres-fatores.jpg
 enableComments: true
 ---
 

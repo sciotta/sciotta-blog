@@ -6,7 +6,7 @@ author_title: Principal Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [ia, automação, sentry, linear, mcp, claude-code, devops, agentes]
-image: https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=1200
+image: /img/feed/blog/2026-03-22-triagem-automatica-sentry-linear-claude-copilot.jpg
 enableComments: true
 ---
 

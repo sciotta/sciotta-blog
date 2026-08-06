@@ -6,7 +6,7 @@ author_title: Principal Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [pensamentos, reflexões, diário]
-image: https://www.segueviagem.com.br/wp-content/uploads/2021/01/Aviao-shutterstock_146314307.jpg
+image: /img/feed/blog/2023-08-11-sobre-viajar.jpg
 enableComments: true
 ---
 

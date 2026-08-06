@@ -1,3 +1,7 @@
+---
+image: /img/feed/wiki/patterns-state.jpg
+---
+
 # Padrão State
 
 O Padrão State é um dos padrões comportamentais que permite que um objeto altere seu comportamento quando seu estado interno muda. O padrão encapsula estados em classes separadas e delega o trabalho para o objeto que representa o estado atual, fazendo parecer que o objeto mudou de classe.

@@ -6,7 +6,7 @@ author_title: Principal Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [typescript, arquitetura, design-patterns, boas-praticas]
-image: https://images.unsplash.com/photo-1618477388954-7852f32655ec?w=1200
+image: /img/feed/blog/2026-02-08-design-patterns-guia-pratico.jpg
 enableComments: true
 ---
 

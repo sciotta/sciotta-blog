@@ -1,3 +1,7 @@
+---
+image: /img/feed/wiki/patterns-observer.jpg
+---
+
 # Padrão Observer
 
 O Padrão Observer é um dos padrões comportamentais que define uma dependência um-para-muitos entre objetos, de maneira que quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente. Este padrão é útil quando um objeto precisa notificar outros objetos sem precisar saber quem são esses objetos.

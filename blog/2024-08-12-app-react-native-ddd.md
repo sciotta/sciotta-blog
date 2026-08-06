@@ -6,7 +6,7 @@ author_title: Principal Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [react-native, ddd, arquitetura]
-image: https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fblog_post_page%2F4084346%2Fcover_image%2Fregular_1708x683%2Fcover-cold-dive-into-react-native-a-beginners-tutorial-74999e68e345987346d006d8e8aa373c.png
+image: /img/feed/blog/2024-08-12-app-react-native-ddd.jpg
 enableComments: true
 ---
 

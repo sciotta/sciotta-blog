@@ -6,7 +6,7 @@ author_title: Principal Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [javascript, webdev, react, performance, clean-code]
-image: https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=1200
+image: /img/feed/blog/2026-02-20-abortcontroller-javascript.jpg
 enableComments: true
 ---
 

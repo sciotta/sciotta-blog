@@ -1,3 +1,7 @@
+---
+image: /img/feed/wiki/patterns-decorator.jpg
+---
+
 # Padrão Decorator
 
 O Padrão Decorator é um dos padrões estruturais que permite adicionar comportamentos a objetos individuais de forma dinâmica, sem afetar o comportamento de outros objetos da mesma classe. Este padrão oferece uma alternativa flexível à herança para estender funcionalidades, permitindo "embrulhar" objetos com novas responsabilidades em tempo de execução.

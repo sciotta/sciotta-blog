@@ -6,7 +6,7 @@ author_title: Principal Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [gratidão,pertencimento,filosofia,vida]
-image: https://cdn.tinybuddha.com/wp-content/uploads/2015/10/Man-and-a-bike-600x400.png
+image: /img/feed/blog/2021-05-18-pertencimento-e-gratidao.jpg
 enableComments: true
 ---
 

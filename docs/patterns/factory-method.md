@@ -1,3 +1,7 @@
+---
+image: /img/feed/wiki/patterns-factory-method.jpg
+---
+
 # Padrão Factory Method
 
 O Padrão Factory Method é um dos padrões criacionais que define uma interface para criar objetos, mas permite que as subclasses decidam qual classe instanciar. Este padrão delega a responsabilidade de criação de objetos para as subclasses, promovendo o desacoplamento entre o código que usa os objetos e o código que os cria.

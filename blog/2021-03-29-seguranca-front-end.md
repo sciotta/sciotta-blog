@@ -6,7 +6,7 @@ author_title: Principal Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [segurança, front-end]
-image: https://www.immuniweb.com/images/blog/web-security-mistakes-cost-millions-dollars.jpg
+image: /img/feed/blog/2021-03-29-seguranca-front-end.jpg
 enableComments: true
 ---
 

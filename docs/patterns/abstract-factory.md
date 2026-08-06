@@ -1,3 +1,7 @@
+---
+image: /img/feed/wiki/patterns-abstract-factory.jpg
+---
+
 # Padrão Abstract Factory
 
 O Padrão Abstract Factory é um dos padrões criacionais que fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. Este padrão é particularmente útil quando um sistema precisa ser independente de como seus produtos são criados, compostos e representados.

@@ -2,6 +2,7 @@
 sidebar_position: 99
 title: "🔗 Links Interessantes"
 description: "Repositórios e ferramentas interessantes organizados por categoria"
+image: /img/feed/wiki/links-interessantes.jpg
 ---
 
 # 🔗 Links Interessantes

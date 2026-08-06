@@ -1,3 +1,7 @@
+---
+image: /img/feed/wiki/tests-smoke-test.jpg
+---
+
 # Smoke Tests
 
 ## Definição
