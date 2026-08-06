@@ -79,7 +79,7 @@ function getWikiItems() {
       description: getDescription(frontmatter, content),
       date: getFileDate(filePath),
       permalink: derivePermalink(filePath, frontmatter),
-      image: null,
+      image: frontmatter.image ?? null,
     };
   });
 }
