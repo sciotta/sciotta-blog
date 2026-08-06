@@ -2,21 +2,15 @@
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   min-height: 100vh;
-  display: flex;
   margin: 0;
-  padding: 0;
-}
-
-.home > section {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
+  padding: 64px 0;
+  box-sizing: border-box;
 }
 
 .home > section > article {
   width: 80vw;
-  max-width: 600px;
+  max-width: 840px;
+  margin: 0 auto;
 }
 
 .home .logo {
@@ -327,7 +321,7 @@
 
 .home .feed-load-more {
   display: block;
-  margin: 8px auto 0;
+  margin: 32px auto 0;
   padding: 10px 32px;
   border: 1.5px solid #333;
   border-radius: 8px;
