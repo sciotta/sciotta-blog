@@ -25,13 +25,13 @@
 }
 
 .home .intro {
-  font-size: 20px;
+  font-size: 16px;
   color: #555;
   margin-bottom: 32px;
   line-height: 1.6;
 }
 
-/* Link pills */
+/* Nav buttons */
 .home .links {
   display: flex;
   justify-content: center;
@@ -43,18 +43,16 @@
   display: inline-block;
   padding: 10px 32px;
   border: 1.5px solid #333;
-  border-radius: 999px;
+  border-radius: 8px;
   color: #333;
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
-  transition: all 0.2s ease;
+  transition: border-color 0.2s ease;
 }
 
 .home .link-pill:hover {
-  background: #333;
-  color: #fff;
-  text-decoration: none;
+  border-color: #000;
 }
 
 /* Social icons */
@@ -80,6 +78,93 @@
   transform: translateY(-2px);
 }
 
+/* Open Source section */
+.home .oss {
+  margin-top: 72px;
+  text-align: left;
+}
+
+.home .oss-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #767676;
+  font-weight: 600;
+  margin: 0 0 16px;
+  text-align: center;
+}
+
+.home .oss-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.home .oss-card {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  transition: border-color 0.2s ease;
+}
+
+.home .oss-card:hover {
+  border-color: #333;
+}
+
+/* Stretched link: paints over the card text on purpose so the whole card is
+   clickable. Text isn't independently selectable — accepted trade-off. */
+.home .oss-site-link {
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+}
+
+.home .oss-card-body {
+  padding-right: 28px;
+}
+
+.home .oss-card-name {
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.home .oss-card-description {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+  margin: 0 0 8px;
+}
+
+.home .oss-card-url {
+  font-size: 12px;
+  text-decoration: underline;
+  color: #333;
+}
+
+.home .oss-github-link {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  color: #666;
+  transition: all 0.2s ease;
+}
+
+.home .oss-github-link:hover {
+  color: #000;
+  background: #f0f0f0;
+}
+
 /* Dark mode */
 [data-theme='dark'] .home .intro {
   color: #bbb;
@@ -91,8 +176,7 @@
 }
 
 [data-theme='dark'] .home .link-pill:hover {
-  background: #f0f0f0;
-  color: #1a1a1a;
+  border-color: #fff;
 }
 
 [data-theme='dark'] .home .social-icon {
@@ -103,8 +187,49 @@
   color: #fff;
 }
 
+[data-theme='dark'] .home .oss-title {
+  color: #bbb;
+}
+
+[data-theme='dark'] .home .oss-card {
+  border-color: #444;
+}
+
+[data-theme='dark'] .home .oss-card:hover {
+  border-color: #ccc;
+}
+
+[data-theme='dark'] .home .oss-card-name {
+  color: #f5f5f5;
+}
+
+[data-theme='dark'] .home .oss-card-description {
+  color: #aaa;
+}
+
+[data-theme='dark'] .home .oss-card-url {
+  color: #ddd;
+}
+
+[data-theme='dark'] .home .oss-github-link {
+  color: #999;
+}
+
+[data-theme='dark'] .home .oss-github-link:hover {
+  color: #fff;
+  background: #333;
+}
+
 @media only screen and (min-width: 600px) {
   .home article {
     width: 60vw;
+  }
+
+  .home .oss-grid {
+    flex-direction: row;
+  }
+
+  .home .oss-card {
+    flex: 1;
   }
 }
