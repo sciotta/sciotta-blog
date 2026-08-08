@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+image: /img/feed/wiki/intro.jpg
 ---
 
 # Wiki Pessoal

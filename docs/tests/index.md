@@ -1,3 +1,7 @@
+---
+image: /img/feed/wiki/tests-index.jpg
+---
+
 # Testes de Software
 
 ## O Que São Testes de Software?

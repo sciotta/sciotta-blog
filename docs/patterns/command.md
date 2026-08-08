@@ -1,3 +1,7 @@
+---
+image: /img/feed/wiki/patterns-command.jpg
+---
+
 # Padrão Command
 
 O Padrão Command é um dos padrões comportamentais que transforma uma solicitação em um objeto independente que contém toda a informação sobre a solicitação. Esta transformação permite parametrizar métodos com diferentes solicitações, atrasar ou enfileirar a execução de uma solicitação e implementar operações que podem ser desfeitas (undo/redo).

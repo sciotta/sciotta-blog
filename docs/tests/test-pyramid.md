@@ -1,3 +1,7 @@
+---
+image: /img/feed/wiki/tests-test-pyramid.jpg
+---
+
 # Pirâmide de Testes
 
 ## Definição

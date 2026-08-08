@@ -1,3 +1,7 @@
+---
+image: /img/feed/wiki/patterns-singleton.jpg
+---
+
 # Padrão Singleton
 
 O Padrão Singleton é um dos padrões criacionais que garante a existência de uma única instância de uma classe e fornece um ponto global de acesso a essa instância. Este padrão é útil quando exatamente um objeto é necessário para coordenar ações em todo o sistema.

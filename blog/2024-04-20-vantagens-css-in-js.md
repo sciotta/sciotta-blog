@@ -6,7 +6,7 @@ author_title: Principal Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [frontend, css, react]
-image: https://images.ctfassets.net/h7ezcprronse/1XOOFscNrSxjhA2xxrCNP1/d18d4707afed70b8b0b45d77b462b9cd/painting-911804_1280.jpg
+image: /img/feed/blog/2024-04-20-vantagens-css-in-js.jpg
 enableComments: true
 ---
 

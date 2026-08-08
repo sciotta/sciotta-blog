@@ -6,7 +6,7 @@ author_title: Principal Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [ia, mcp, ai-agents, databases, arquitetura]
-image: https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200
+image: /img/feed/blog/2026-02-16-mcp-toolbox-databases.jpg
 enableComments: true
 ---
 

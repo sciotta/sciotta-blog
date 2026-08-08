@@ -1,3 +1,7 @@
+---
+image: /img/feed/wiki/patterns-facade.jpg
+---
+
 # Padrão Facade
 
 O Padrão Facade é um dos padrões estruturais que fornece uma interface simplificada para um conjunto complexo de subsistemas. Ele atua como uma "fachada" que esconde a complexidade do sistema, oferecendo ao cliente uma maneira mais fácil de interagir com múltiplos componentes através de uma única interface unificada.

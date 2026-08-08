@@ -6,7 +6,7 @@ author_title: Principal Engineer
 author_url: https://github.com/thiagog3
 author_image_url: https://avatars.githubusercontent.com/u/1863045?v=4
 tags: [react, frontend, arquitetura, performance]
-image: https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=1200
+image: /img/feed/blog/2026-02-01-react-server-components.jpg
 enableComments: true
 ---
 

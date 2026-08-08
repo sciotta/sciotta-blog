@@ -1,3 +1,7 @@
+---
+image: /img/feed/wiki/patterns-adapter.jpg
+---
+
 # Padrão Adapter
 
 O Padrão Adapter é um dos padrões estruturais que permite que interfaces incompatíveis trabalhem juntas. Ele atua como um "tradutor" entre duas interfaces, convertendo a interface de uma classe em outra interface que o cliente espera. Este padrão é particularmente útil quando você precisa integrar classes existentes que não podem ser modificadas.

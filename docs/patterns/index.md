@@ -1,3 +1,7 @@
+---
+image: /img/feed/wiki/patterns-index.jpg
+---
+
 # Design Patterns
 
 Bem-vindo à seção de Design Patterns da minha wiki pessoal! Aqui, exploraremos os conceitos fundamentais e as práticas recomendadas em Design Patterns (Padrões de Projeto), que são soluções reutilizáveis para problemas comuns encontrados no desenvolvimento de software. Padrões de projeto são uma forma eficaz de promover a reutilização do código e melhorar a comunicação entre desenvolvedores, proporcionando uma base sólida para a arquitetura e a implementação de sistemas complexos.

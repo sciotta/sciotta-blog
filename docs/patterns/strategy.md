@@ -1,3 +1,7 @@
+---
+image: /img/feed/wiki/patterns-strategy.jpg
+---
+
 # Padrão Strategy
 
 O Padrão Strategy é um dos padrões comportamentais que permite definir uma família de algoritmos, encapsulá-los e torná-los intercambiáveis. Este padrão é particularmente útil quando você precisa selecionar dinamicamente entre várias variações de um algoritmo. Ao utilizar o Padrão Strategy, você pode adicionar novos algoritmos ou modificar algoritmos existentes sem alterar o código cliente que os utiliza.
