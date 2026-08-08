@@ -1,0 +1,171 @@
+{
+  "note": "Reserva usada quando /blog/rss.xml nao esta disponivel (preview local, outro dominio). Gerado do repositorio sciotta/sciotta-blog.",
+  "items": [
+    {
+      "title": "Automatizei a triagem de bugs: Sentry detecta, Linear organiza, Copilot resolve",
+      "slug": "triagem-automatica-sentry-linear-claude-copilot",
+      "date": "2026-03-22",
+      "tags": [
+        "ia",
+        "automação",
+        "sentry",
+        "linear",
+        "mcp",
+        "claude-code",
+        "devops",
+        "agentes"
+      ],
+      "file": "2026-03-22-triagem-automatica-sentry-linear-claude-copilot.md"
+    },
+    {
+      "title": "Eu criei um time de IAs com personalidades diferentes — e elas conversam entre si no Slack",
+      "slug": "multi-agentes-ia-personalidade-openclaw",
+      "date": "2026-02-25",
+      "tags": [
+        "ia",
+        "agentes",
+        "multi-agent",
+        "openclaw",
+        "slack",
+        "automação",
+        "llm"
+      ],
+      "file": "2026-02-25-multi-agentes-ia-personalidade-openclaw.md"
+    },
+    {
+      "title": "Acessibilidade não é feature: como construir componentes que funcionam pra todo mundo",
+      "slug": "acessibilidade-front-end-componentes-downshift",
+      "date": "2026-02-23",
+      "tags": [
+        "acessibilidade",
+        "a11y",
+        "react",
+        "frontend",
+        "design-system",
+        "downshift"
+      ],
+      "file": "2026-02-23-acessibilidade-componentes-downshift.md"
+    },
+    {
+      "title": "AbortController: A API mais subestimada do JavaScript",
+      "slug": "abortcontroller-javascript-cancelar-qualquer-coisa",
+      "date": "2026-02-20",
+      "tags": [
+        "javascript",
+        "webdev",
+        "react",
+        "performance",
+        "clean-code"
+      ],
+      "file": "2026-02-20-abortcontroller-javascript.md"
+    },
+    {
+      "title": "MCP Toolbox: Como dar superpoderes de dados aos seus AI Agents",
+      "slug": "mcp-toolbox-databases-ai-agents",
+      "date": "2026-02-16",
+      "tags": [
+        "ia",
+        "mcp",
+        "ai-agents",
+        "databases",
+        "arquitetura"
+      ],
+      "file": "2026-02-16-mcp-toolbox-databases.md"
+    },
+    {
+      "title": "Design Patterns na Prática - Guia Completo com TypeScript",
+      "slug": "design-patterns-guia-pratico",
+      "date": "2026-02-08",
+      "tags": [
+        "typescript",
+        "arquitetura",
+        "design-patterns",
+        "boas-praticas"
+      ],
+      "file": "2026-02-08-design-patterns-guia-pratico.md"
+    },
+    {
+      "title": "React Server Components na Prática",
+      "slug": "react-server-components",
+      "date": "2026-02-01",
+      "tags": [
+        "react",
+        "frontend",
+        "arquitetura",
+        "performance"
+      ],
+      "file": "2026-02-01-react-server-components.md"
+    },
+    {
+      "title": "Desenvolvendo um App com React Native e DDD",
+      "slug": "react-native-ddd",
+      "date": "2024-08-12",
+      "tags": [
+        "react-native",
+        "ddd",
+        "arquitetura"
+      ],
+      "file": "2024-08-12-app-react-native-ddd.md"
+    },
+    {
+      "title": "Vantagens de Usar CSS-in-JS em Aplicações React",
+      "slug": "vantagens-css-in-js",
+      "date": "2024-04-20",
+      "tags": [
+        "frontend",
+        "css",
+        "react"
+      ],
+      "file": "2024-04-20-vantagens-css-in-js.md"
+    },
+    {
+      "title": "A Magia das Viagens e Suas Lembranças Inesquecíveis",
+      "slug": "explorando-o-mundo",
+      "date": "2023-08-11",
+      "tags": [
+        "pensamentos",
+        "reflexões",
+        "diário"
+      ],
+      "file": "2023-08-11-sobre-viajar.md"
+    },
+    {
+      "title": "Pertencimento e gratidão",
+      "slug": "pertencimento-e-gratidao",
+      "date": "2021-05-18",
+      "tags": [
+        "gratidão",
+        "pertencimento",
+        "filosofia",
+        "vida"
+      ],
+      "file": "2021-05-18-pertencimento-e-gratidao.md"
+    },
+    {
+      "title": "Fatores que fazem a diferença ao lidar com tecnologia e produto",
+      "slug": "tres-fatores",
+      "date": "2021-04-04",
+      "tags": [
+        "front-end",
+        "ci",
+        "automação",
+        "engenharia",
+        "produto",
+        "tecnologia"
+      ],
+      "file": "2021-04-04-tres-fatores.md"
+    },
+    {
+      "title": "Segurança no front-end",
+      "slug": "seguranca-front-end",
+      "date": "2021-03-29",
+      "tags": [
+        "segurança",
+        "front-end"
+      ],
+      "file": "2021-03-29-seguranca-front-end.md"
+    }
+  ],
+  "raw": "https://raw.githubusercontent.com/sciotta/sciotta-blog/main/blog/",
+  "blob": "https://github.com/sciotta/sciotta-blog/blob/main/blog/"
+}

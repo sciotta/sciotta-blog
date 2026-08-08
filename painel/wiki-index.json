@@ -1,0 +1,134 @@
+{
+  "note": "Indice da wiki (docs/) do repositorio sciotta/sciotta-blog. O texto de cada pagina e buscado no raw do GitHub.",
+  "raw": "https://raw.githubusercontent.com/sciotta/sciotta-blog/main/",
+  "site": "/docs/",
+  "sections": [
+    {
+      "name": "raiz",
+      "label": "/",
+      "pages": [
+        {
+          "title": "Wiki Pessoal",
+          "file": "docs/intro.md",
+          "slug": "intro",
+          "size": 1443
+        },
+        {
+          "title": "Links Interessantes",
+          "file": "docs/links-interessantes.md",
+          "slug": "links-interessantes",
+          "size": 10807
+        }
+      ]
+    },
+    {
+      "name": "patterns",
+      "label": "patterns",
+      "pages": [
+        {
+          "title": "Design Patterns",
+          "file": "docs/patterns/index.md",
+          "slug": "patterns",
+          "size": 1498
+        },
+        {
+          "title": "Padrão Abstract Factory",
+          "file": "docs/patterns/abstract-factory.md",
+          "slug": "patterns/abstract-factory",
+          "size": 2513
+        },
+        {
+          "title": "Padrão Adapter",
+          "file": "docs/patterns/adapter.md",
+          "slug": "patterns/adapter",
+          "size": 3392
+        },
+        {
+          "title": "Padrão Command",
+          "file": "docs/patterns/command.md",
+          "slug": "patterns/command",
+          "size": 2825
+        },
+        {
+          "title": "Padrão Decorator",
+          "file": "docs/patterns/decorator.md",
+          "slug": "patterns/decorator",
+          "size": 3840
+        },
+        {
+          "title": "Padrão Facade",
+          "file": "docs/patterns/facade.md",
+          "slug": "patterns/facade",
+          "size": 2464
+        },
+        {
+          "title": "Padrão Factory Method",
+          "file": "docs/patterns/factory-method.md",
+          "slug": "patterns/factory-method",
+          "size": 3131
+        },
+        {
+          "title": "Padrão Observer",
+          "file": "docs/patterns/observer.md",
+          "slug": "patterns/observer",
+          "size": 1811
+        },
+        {
+          "title": "Padrão Singleton",
+          "file": "docs/patterns/singleton.md",
+          "slug": "patterns/singleton",
+          "size": 2268
+        },
+        {
+          "title": "Padrão State",
+          "file": "docs/patterns/state.md",
+          "slug": "patterns/state",
+          "size": 2781
+        },
+        {
+          "title": "Padrão Strategy",
+          "file": "docs/patterns/strategy.md",
+          "slug": "patterns/strategy",
+          "size": 1636
+        }
+      ]
+    },
+    {
+      "name": "tests",
+      "label": "tests",
+      "pages": [
+        {
+          "title": "Testes de Software",
+          "file": "docs/tests/index.md",
+          "slug": "tests",
+          "size": 3648
+        },
+        {
+          "title": "Smoke Tests",
+          "file": "docs/tests/smoke-test.md",
+          "slug": "tests/smoke-test",
+          "size": 2586
+        },
+        {
+          "title": "Pirâmide de Testes",
+          "file": "docs/tests/test-pyramid.md",
+          "slug": "tests/test-pyramid",
+          "size": 2812
+        }
+      ]
+    },
+    {
+      "name": "data-structure",
+      "label": "data-structure",
+      "pages": [
+        {
+          "title": "Estrutura de Dados",
+          "file": "docs/data-structure/index.md",
+          "slug": "data-structure",
+          "size": 4085
+        }
+      ]
+    }
+  ],
+  "blob": "https://github.com/sciotta/sciotta-blog/blob/main/"
+}
