@@ -43,7 +43,7 @@ Ao fim desta tarefa a linha aparece em qualquer tamanho de tela. A regra que a e
 **Interfaces:**
 - Produces: componente `CyberpunkTeaser` (sem props) e as classes CSS `.home .lab`, `.home .lab-link`, `.home .lab-caret`, mais a animação `lab-blink`. A Task 2 altera a regra de `.home .lab` e a animação de `.home .lab-caret`.
 
-- [ ] **Step 1: Conferir que os arquivos estão como o plano espera**
+- [x] **Step 1: Conferir que os arquivos estão como o plano espera**
 
 Ler `src/pages/index.js` e `src/pages/index.css` e localizar os quatro pontos de inserção:
 
@@ -56,7 +56,7 @@ Ler `src/pages/index.js` e `src/pages/index.css` e localizar os quatro pontos de
 
 Se os números divergirem, siga pelos marcadores de texto — o resto do plano continua válido, porque todas as inserções são descritas em relação a eles.
 
-- [ ] **Step 2: Adicionar o componente `CyberpunkTeaser` em `index.js`**
+- [x] **Step 2: Adicionar o componente `CyberpunkTeaser` em `index.js`**
 
 Inserir logo após o fechamento de `GitHubIcon` (linha 24) e antes de `const openSourceProjects`:
 
@@ -74,7 +74,7 @@ const CyberpunkTeaser = () => (
 
 Os três filhos do `.lab-link` (o cursor, o texto solto e a seta) viram itens flex — o texto vira um item anônimo. O espaçamento entre eles vem do `gap` no CSS, não de espaços no JSX, então não acrescente `{' '}` em lugar nenhum.
 
-- [ ] **Step 3: Renderizar o componente na home**
+- [x] **Step 3: Renderizar o componente na home**
 
 Em `index.js`, inserir `<CyberpunkTeaser />` entre o `</section>` que fecha a seção de open source e o `</article>`:
 
@@ -84,7 +84,7 @@ Em `index.js`, inserir `<CyberpunkTeaser />` entre o `</section>` que fecha a se
         </article>
 ```
 
-- [ ] **Step 4: Adicionar o bloco de estilos em `index.css`**
+- [x] **Step 4: Adicionar o bloco de estilos em `index.css`**
 
 Inserir imediatamente antes do comentário `/* Dark mode */`:
 
@@ -128,7 +128,7 @@ Inserir imediatamente antes do comentário `/* Dark mode */`:
 }
 ```
 
-- [ ] **Step 5: Adicionar os overrides de dark mode**
+- [x] **Step 5: Adicionar os overrides de dark mode**
 
 Ainda em `index.css`, no fim do bloco de dark mode — depois da regra `[data-theme='dark'] .home .oss-github-link:hover` e antes do `@media only screen and (min-width: 600px)`:
 
@@ -142,7 +142,7 @@ Ainda em `index.css`, no fim do bloco de dark mode — depois da regra `[data-th
 }
 ```
 
-- [ ] **Step 6: Subir o dev server e verificar no tema claro**
+- [x] **Step 6: Subir o dev server e verificar no tema claro**
 
 Run:
 ```bash
@@ -155,11 +155,11 @@ Abrir `http://localhost:3001/` no browser, no tema claro. Esperado:
 - passar o mouse sobre a linha muda a cor para o teal `#087a7a`;
 - clicar leva a `/cyberpunk` na mesma aba.
 
-- [ ] **Step 7: Verificar no tema escuro**
+- [x] **Step 7: Verificar no tema escuro**
 
 Alternar o tema do site para escuro e conferir na mesma página. Esperado: a linha fica `#bbb` em repouso e ciano `#23e5e5` no hover.
 
-- [ ] **Step 8: Rodar o build**
+- [x] **Step 8: Rodar o build**
 
 Run:
 ```bash
@@ -168,7 +168,7 @@ yarn build
 
 Esperado: `[SUCCESS] Generated static files in "build".` sem erro. Se aparecer erro de link quebrado apontando para `/cyberpunk`, é sinal de que `src/pages/cyberpunk.js` não está presente — confirme que a branch saiu de um `main` que já contém o PR #24.
 
-- [ ] **Step 9: Commit**
+- [x] **Step 9: Commit**
 
 ```bash
 git add src/pages/index.js src/pages/index.css
@@ -186,7 +186,7 @@ git commit -m "feat: chamada para o terminal /cyberpunk na home"
 - Consumes: as classes `.home .lab` e `.home .lab-caret` criadas na Task 1.
 - Produces: o comportamento final de visibilidade. Nenhuma tarefa posterior depende de novos nomes.
 
-- [ ] **Step 1: Trocar a regra base de `.home .lab` para escondida**
+- [x] **Step 1: Trocar a regra base de `.home .lab` para escondida**
 
 Em `index.css`, no bloco `/* Experimento — chamada para /cyberpunk */`, substituir:
 
@@ -206,11 +206,11 @@ por:
 }
 ```
 
-- [ ] **Step 2: Verificar que a chamada sumiu**
+- [x] **Step 2: Verificar que a chamada sumiu**
 
 Com o dev server rodando, recarregar `http://localhost:3001/`. Esperado: a linha não aparece mais em nenhum tamanho de tela, e a página termina nos cards de open source. Isso confirma que a regra base pegou — o próximo passo devolve a linha ao desktop.
 
-- [ ] **Step 3: Devolver a chamada a quem tem apontador de precisão**
+- [x] **Step 3: Devolver a chamada a quem tem apontador de precisão**
 
 Acrescentar ao fim de `index.css`, depois do `@media only screen and (min-width: 600px)` que já existe:
 
@@ -228,7 +228,7 @@ Acrescentar ao fim de `index.css`, depois do `@media only screen and (min-width:
 
 A regra precisa vir **depois** da regra base do Step 1: as duas têm a mesma especificidade, então quem vence é a última do arquivo.
 
-- [ ] **Step 4: Desligar a piscada para quem pediu menos movimento**
+- [x] **Step 4: Desligar a piscada para quem pediu menos movimento**
 
 Acrescentar logo em seguida, no fim do arquivo:
 
@@ -240,11 +240,11 @@ Acrescentar logo em seguida, no fim do arquivo:
 }
 ```
 
-- [ ] **Step 5: Verificar que a chamada voltou no desktop**
+- [x] **Step 5: Verificar que a chamada voltou no desktop**
 
 Recarregar `http://localhost:3001/` num browser de desktop com mouse. Esperado: a linha voltou a aparecer, idêntica ao que foi verificado na Task 1.
 
-- [ ] **Step 6: Verificar que ela some com emulação de toque**
+- [x] **Step 6: Verificar que ela some com emulação de toque**
 
 No Chrome, abrir o DevTools (`Cmd+Opt+I`), ativar a barra de dispositivo (`Cmd+Shift+M`), escolher um preset de celular — iPhone ou Pixel — e recarregar a página. O recarregamento é necessário: a emulação muda como as media queries de ponteiro são avaliadas e a página precisa reavaliá-las.
 
@@ -258,13 +258,13 @@ document.querySelector('.lab') !== null && getComputedStyle(document.querySelect
 
 Esperado: `"none"` — o elemento está no documento, apenas não é exibido.
 
-- [ ] **Step 7: Verificar a redução de movimento**
+- [x] **Step 7: Verificar a redução de movimento**
 
 Ainda no DevTools, abrir o menu de comandos (`Cmd+Shift+P`), rodar `Emulate CSS prefers-reduced-motion: reduce` e voltar para o modo desktop. Esperado: o bloco do cursor aparece sólido e parado, e o resto da linha continua igual.
 
 Desligar a emulação ao terminar.
 
-- [ ] **Step 8: Rodar o build**
+- [x] **Step 8: Rodar o build**
 
 Run:
 ```bash
@@ -273,7 +273,7 @@ yarn build
 
 Esperado: `[SUCCESS] Generated static files in "build".` sem erro.
 
-- [ ] **Step 9: Commit**
+- [x] **Step 9: Commit**
 
 ```bash
 git add src/pages/index.css
@@ -292,14 +292,14 @@ As tarefas anteriores foram verificadas no dev server. Esta confirma o mesmo com
 **Interfaces:**
 - Consumes: o resultado das Tasks 1 e 2.
 
-- [ ] **Step 1: Parar o dev server e servir o build**
+- [x] **Step 1: Parar o dev server e servir o build**
 
 Run:
 ```bash
 yarn build && yarn serve --port 3001 --no-open
 ```
 
-- [ ] **Step 2: Confirmar que a chamada está no HTML gerado**
+- [x] **Step 2: Confirmar que a chamada está no HTML gerado**
 
 Run:
 ```bash
@@ -308,26 +308,26 @@ grep -o 'class="lab[^"]*"' build/index.html
 
 Esperado: as ocorrências de `class="lab"` e `class="lab-link"` — confirma que o elemento é servido no HTML estático para todo mundo, e que a decisão é mesmo do CSS.
 
-- [ ] **Step 3: Conferir a home no browser**
+- [x] **Step 3: Conferir a home no browser**
 
 Abrir `http://localhost:3001/` e repetir as checagens que já passaram no dev server: a linha aparece no desktop, nos dois temas, com o hover na cor certa, e some com emulação de celular.
 
-- [ ] **Step 4: Conferir que o destino funciona**
+- [x] **Step 4: Conferir que o destino funciona**
 
 Clicar na linha. Esperado: navega para `/cyberpunk` na mesma aba, e o terminal inicia normalmente — a câmera se aproxima do painel e a tela de cadastro monta.
 
-- [ ] **Step 5: Conferir que a home não regrediu**
+- [x] **Step 5: Conferir que a home não regrediu**
 
 Voltar para `/` e confirmar que o resto da página está intacto: logo, frase de intro, pills Blog e Wiki, os três ícones sociais e os dois cards de open source, nos dois temas.
 
-- [ ] **Step 6: Encerrar o servidor**
+- [x] **Step 6: Encerrar o servidor**
 
 Run:
 ```bash
 pkill -f "docusaurus serve"
 ```
 
-- [ ] **Step 7: Marcar o spec como implementado**
+- [x] **Step 7: Marcar o spec como implementado**
 
 Em `specs/2026-08-08-home-cyberpunk-teaser-design.md`, trocar a linha de status:
 
@@ -335,7 +335,7 @@ Em `specs/2026-08-08-home-cyberpunk-teaser-design.md`, trocar a linha de status:
 **Status:** Implementado e revisado (branch feat/home-cyberpunk-teaser)
 ```
 
-- [ ] **Step 8: Commit**
+- [x] **Step 8: Commit**
 
 ```bash
 git add specs/2026-08-08-home-cyberpunk-teaser-design.md plans/2026-08-08-home-cyberpunk-teaser.md

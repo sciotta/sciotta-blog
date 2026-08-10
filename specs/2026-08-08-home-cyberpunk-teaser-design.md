@@ -1,7 +1,7 @@
 # Chamada para o /cyberpunk na home
 
 **Data:** 2026-08-08
-**Status:** Aprovado, aguardando plano de implementação
+**Status:** Implementado e revisado (branch feat/home-cyberpunk-teaser)
 
 ## Objetivo
 
