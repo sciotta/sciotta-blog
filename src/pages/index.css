@@ -167,9 +167,7 @@
 
 /* Experimento — chamada para /cyberpunk */
 .home .lab {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
+  display: none;
 }
 
 .home .lab-link {
@@ -277,5 +275,21 @@
 
   .home .oss-card {
     flex: 1;
+  }
+}
+
+/* A chamada só existe para quem tem mouse ou trackpad: a experiência do
+   terminal depende de apontar e clicar, e não se sustenta no toque. */
+@media (hover: hover) and (pointer: fine) {
+  .home .lab {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home .lab-caret {
+    animation: none;
   }
 }
