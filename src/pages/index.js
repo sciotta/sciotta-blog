@@ -23,6 +23,16 @@ const GitHubIcon = ({ size = 24 }) => (
   </svg>
 );
 
+const CyberpunkTeaser = () => (
+  <div className="lab">
+    <a className="lab-link" href="/cyberpunk">
+      <span className="lab-caret" aria-hidden="true" />
+      experimento: terminal CRT
+      <span aria-hidden="true">→</span>
+    </a>
+  </div>
+);
+
 const openSourceProjects = [
   {
     name: 'tokens-to-styles',
@@ -101,6 +111,7 @@ export default function Hello() {
               ))}
             </div>
           </section>
+          <CyberpunkTeaser />
         </article>
       </section>
     </div>
